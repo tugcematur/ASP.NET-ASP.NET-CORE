@@ -1,0 +1,42 @@
+﻿
+@using MVCProject.Models.Classes
+
+@model List<Ulke>
+
+<div class="row">
+    <div class="col-md-5">
+        <form method="post">
+            <a class="btn btn-primary" href="/Ulke/Create">Yeni Kayıt</a>
+        </form>
+        <h2>Ulke Listesi</h2>
+        <hr />
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <td>Id</td>
+                    <td>Ad</td>
+                    <td>Sil</td>
+                    <td>Güncelle</td>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.UlkeId</td>
+                        <td>@item.UlkeAd</td>
+                        <td><a class="btn btn-danger" href="/Ulke/Delete/@item.UlkeId">Sil</a></td>
+                        <td><a class="btn btn-success" href="/Ulke/Update/@item.UlkeId">Güncelle</a></td>
+                    </tr>
+
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+
+
+
+

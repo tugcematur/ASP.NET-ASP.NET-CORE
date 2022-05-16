@@ -1,0 +1,166 @@
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\MVCProject.dll.config
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\MVCProject.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\MVCProject.pdb
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\csc.exe
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\csc.exe.config
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\csc.rsp
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\csi.exe
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\csi.exe.config
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\csi.rsp
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\Microsoft.Managed.Core.targets
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\System.AppContext.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\System.Collections.Immutable.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\System.Console.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\System.Globalization.Calendars.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\System.IO.Compression.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\System.IO.FileSystem.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\System.Net.Http.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\System.Net.Sockets.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\System.ValueTuple.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\System.Xml.XmlDocument.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\System.Xml.XPath.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\vbc.exe
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\vbc.exe.config
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\vbc.rsp
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\VBCSCompiler.exe
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\roslyn\VBCSCompiler.exe.config
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\Antlr3.Runtime.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\Dapper.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\Framework.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\Microsoft.Web.Infrastructure.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\Newtonsoft.Json.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\System.Web.Helpers.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\System.Web.Mvc.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\System.Web.Optimization.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\System.Web.Razor.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\System.Web.WebPages.Deployment.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\System.Web.WebPages.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\System.Web.WebPages.Razor.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\WebGrease.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\Framework.pdb
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\Dapper.xml
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\System.Web.Helpers.xml
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\System.Web.Mvc.xml
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\System.Web.Optimization.xml
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\System.Web.Razor.xml
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\System.Web.WebPages.xml
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\System.Web.WebPages.Deployment.xml
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\System.Web.WebPages.Razor.xml
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\Newtonsoft.Json.xml
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\Antlr3.Runtime.pdb
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\obj\Debug\MVCProject.csproj.AssemblyReference.cache
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\obj\Debug\MVCProject.csproj.CoreCompileInputs.cache
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\obj\Debug\MVCProject.csproj.CopyComplete
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\obj\Debug\MVCProject.dll
+C:\301Sabah\13-MVC\Frameworkproje\MVCProject\obj\Debug\MVCProject.pdb
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\MVCProject.dll.config
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\MVCProject.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\MVCProject.pdb
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\csc.exe
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\csc.exe.config
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\csc.rsp
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\csi.exe
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\csi.exe.config
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\csi.rsp
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\System.AppContext.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\System.Console.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\System.IO.Compression.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\System.Net.Http.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\System.Net.Sockets.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\System.ValueTuple.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\System.Xml.XPath.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\vbc.exe
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\vbc.exe.config
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\vbc.rsp
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\VBCSCompiler.exe
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\Antlr3.Runtime.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\Dapper.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\Framework.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\Newtonsoft.Json.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\System.Web.Helpers.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\System.Web.Mvc.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\System.Web.Optimization.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\System.Web.Razor.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\System.Web.WebPages.Deployment.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\System.Web.WebPages.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\System.Web.WebPages.Razor.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\WebGrease.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\Framework.pdb
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\Dapper.xml
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\System.Web.Helpers.xml
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\System.Web.Mvc.xml
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\System.Web.Optimization.xml
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\System.Web.Razor.xml
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\System.Web.WebPages.xml
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\System.Web.WebPages.Deployment.xml
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\System.Web.WebPages.Razor.xml
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\Newtonsoft.Json.xml
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\Antlr3.Runtime.pdb
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\obj\Debug\MVCProject.csproj.AssemblyReference.cache
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\obj\Debug\MVCProject.csproj.CoreCompileInputs.cache
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\obj\Debug\MVCProject.csproj.CopyComplete
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\obj\Debug\MVCProject.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\MVCProject\obj\Debug\MVCProject.pdb

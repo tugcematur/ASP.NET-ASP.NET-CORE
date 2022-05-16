@@ -1,0 +1,16 @@
+C:\301Sabah\13-MVC\Reflection\Reflection\bin\Debug\net5.0\Reflection.exe
+C:\301Sabah\13-MVC\Reflection\Reflection\bin\Debug\net5.0\Reflection.deps.json
+C:\301Sabah\13-MVC\Reflection\Reflection\bin\Debug\net5.0\Reflection.runtimeconfig.json
+C:\301Sabah\13-MVC\Reflection\Reflection\bin\Debug\net5.0\Reflection.runtimeconfig.dev.json
+C:\301Sabah\13-MVC\Reflection\Reflection\bin\Debug\net5.0\Reflection.dll
+C:\301Sabah\13-MVC\Reflection\Reflection\bin\Debug\net5.0\ref\Reflection.dll
+C:\301Sabah\13-MVC\Reflection\Reflection\bin\Debug\net5.0\Reflection.pdb
+C:\301Sabah\13-MVC\Reflection\Reflection\obj\Debug\net5.0\Reflection.csproj.AssemblyReference.cache
+C:\301Sabah\13-MVC\Reflection\Reflection\obj\Debug\net5.0\Reflection.GeneratedMSBuildEditorConfig.editorconfig
+C:\301Sabah\13-MVC\Reflection\Reflection\obj\Debug\net5.0\Reflection.AssemblyInfoInputs.cache
+C:\301Sabah\13-MVC\Reflection\Reflection\obj\Debug\net5.0\Reflection.AssemblyInfo.cs
+C:\301Sabah\13-MVC\Reflection\Reflection\obj\Debug\net5.0\Reflection.csproj.CoreCompileInputs.cache
+C:\301Sabah\13-MVC\Reflection\Reflection\obj\Debug\net5.0\Reflection.dll
+C:\301Sabah\13-MVC\Reflection\Reflection\obj\Debug\net5.0\ref\Reflection.dll
+C:\301Sabah\13-MVC\Reflection\Reflection\obj\Debug\net5.0\Reflection.pdb
+C:\301Sabah\13-MVC\Reflection\Reflection\obj\Debug\net5.0\Reflection.genruntimeconfig.cache

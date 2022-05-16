@@ -1,0 +1,16 @@
+﻿@model MVCwithData.Models.Classes.Unvan
+
+
+<br />
+<div class="row">
+    <div class="col-md-7">
+        <form method="post">
+            @*POST *@
+            <label>Id</label>
+            @*<input class="form-control " type="text" value="@Model.UnvanId" name="UnvanId" />*@ @*Property ismi ile name aynı olmalı olmasa da uzun bir yolu var,id gizli duyor gözükmüyor sayfada.*@
+            <label>Ad</label>
+            <input class="form-control " type="text" value="@Model.UnvanAd" name="UnvanAd" /> @*name 'i' değiştirirsek  hata verir, Modeldeki ile aynı olmalı yoksa modal değeri null gelir.*@
+            <input class="btn btn-primary" type="submit" value="Ekle" />
+        </form>
+    </div>
+</div>

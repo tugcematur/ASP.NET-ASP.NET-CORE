@@ -1,0 +1,48 @@
+﻿@model List<MVCwithData.Models.Classes.Ulke>
+                                                                     @*Yukarıda Modeli tanımlıyoruz.*@
+@*<hr> etiketi HTML belgesinde konu sonu tanımlar.
+    Belgede ayrı bir içeriği tanımlamak (değişiklik tanımlamak) için kullanılır. (Çizgi çiziyor.)*@
+
+    <div class="row">
+
+        <div class="col-md-7">
+            <form method="post"  action="/Ulke/Create">
+
+           <a  class="btn btn-primary" href="/Ulke/Create" >Yeni Kayıt</a>    @*Formaction özelliği form verilerinin nereye gönderileceğini tanımlar.*@   @*submit Post anlamına geldiği için post bekliyor bu yüzden input kullanamadık.*@
+
+            </form>
+            <h2>Ülke Listesi</h2>
+            <hr />
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Ülke Ad</th>
+                        <th>Sil</th>
+                        <th>Güncelle</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.UlkeId</td>   @*Properties olan UlkeId ve UlkeAd tipi Ulke (class)*@
+                            <td>@item.UlkeAd</td>
+                            <td><a class="btn btn-danger" href="/Ulke/Delete/@item.UlkeId">Sil</a></td>   @*<a> etiketi bağlantı metinleri oluşturmak için kullanılır, bağlantılar başka sayfalara geçiş için kullanılır.*@
+                            <td><a class="btn btn-success" href="/Ulke/Update/@item.UlkeId">Güncelle</a></td>
+
+                        </tr>
+
+                    }
+
+
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+
+
+
+

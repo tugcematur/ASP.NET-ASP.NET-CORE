@@ -1,0 +1,34 @@
+﻿@model Webmaster
+@{
+    ViewBag.Title = "Contact3";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Webmaster 2.Yol Model</h2>                                     @*ViewBag, Controller'da oluşturulan bir yapıyı View kısmına taşımak için kullanılır.*@
+<p>@Model.Ad</p>
+<p>@Model.Mail</p>
+<p>@Model.Tel</p>
+
+
+
+
+
+
+
+@*A) Örnek 1
+
+Controller:
+
+public ActionResult Index()
+
+{
+
+ViewBag.value = ” www.erenakpinar.com ”;
+
+return View();
+
+}
+
+View:
+
+<p>@ViewBag.value</p>*@

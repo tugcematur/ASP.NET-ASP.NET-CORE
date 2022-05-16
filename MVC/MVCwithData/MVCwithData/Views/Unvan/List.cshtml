@@ -1,0 +1,45 @@
+﻿@model List<MVCwithData.Models.Classes.Unvan>
+
+<div class="row">
+
+    <div class="col-md-7">
+        <form method="post" action="/Ulke/Create">
+
+            <a class="btn btn-primary" href="/Unvan/Create">Yeni Kayıt</a>    @*Formaction özelliği form verilerinin nereye gönderileceğini tanımlar.*@   @*submit Post anlamına geldiği için post bekliyor bu yüzden input kullanamadık.*@
+
+        </form>
+
+        <h2>Unvan Listesi</h2>
+        <hr />
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Unvan Ad</th>
+                    <th>Sil</th>
+                    <th>Güncelle</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.UnvanId</td>   @*Properties olan UlkeId ve UlkeAd tipi Ulke (class)*@
+                        <td>@item.UnvanAd</td>
+                        @*<a> etiketi bağlantı metinleri oluşturmak için kullanılır, bağlantılar başka sayfalara geçiş için kullanılır.*@
+                        <td><a class="btn btn-danger" href="/Unvan/Delete/@item.UnvanId">Sil</a></td>
+                        <td><a class="btn btn-success" href="/Unvan/Update/@item.UnvanId">Güncelle</a></td>
+
+                    </tr>
+
+                }
+
+
+            </tbody>
+        </table>
+
+    </div>
+</div>
+
+

@@ -1,0 +1,20 @@
+﻿@model MVCProject.Models.Views.UnvanModel
+
+<h2>@Model.Baslik</h2>
+<br />
+<div class="row">
+    <div class="col-md-7">
+        <form method="post">
+
+            @*POST *@
+
+            @*<input class="form-control " type="text" value="@Model.UnvanId" name="UnvanId" />*@ @*Property ismi ile name aynı olmalı olmasa da uzun bir yolu var,id gizli duyor gözükmüyor sayfada.*@
+            <label>Id</label>
+            <input class="form-control" name="UnvanId" value="@Model.Unvan.UnvanId"  readonly/>
+            @*<input class="form-control" name="UnvanId" value="@Model.Unvan.UnvanId"  readonly/>*@                   @*2.Yol: Disabled yapılmaz(çünkü değeri okumaz ) readonly ile farklı şeyler*@
+            <input class="form-control " type="text" value="@Model.Unvan.UnvanAd" name="UnvanAd" /> @*name 'i' değiştirirsek  hata verir, Modeldeki ile aynı olmalı yoksa modal değeri null gelir.*@
+            <input class="@Model.BtnClass" type="submit" value="@Model.BtnVal" />
+            <input type="submit" class="btn btn-warning" value="İptal" formaction="List" />
+        </form>
+    </div>
+</div>

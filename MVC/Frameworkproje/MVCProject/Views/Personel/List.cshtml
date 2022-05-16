@@ -1,0 +1,50 @@
+﻿@model List<MVCProject.Models.Classes.Personel>
+
+
+<div class="row">
+    <div class="col-md-5">
+        <form method="post">
+            <a class="btn btn-primary" href="/Personel/Create">Yeni Kayıt</a>
+        </form>
+        <h2>PersonelListesi</h2>
+        <hr />
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <td>Id</td>
+                    <td>Ad</td>
+                    <td>Soyad</td>
+                    <td>Maas</td>
+                    <td>UnvanId</td>
+                    <td>UlkeId</td>
+                    <td>UyrukId</td>
+                    <td>YoneticiId</td>
+                    <td>Sil</td>
+                    <td>Güncelle</td>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                <tr>
+                    <td>@item.PersonelId</td>
+                    <td>@item.Ad</td>
+                    <td>@item.Soyad</td>
+                    <td>@item.Maas</td>
+                    <td>@item.UnvanId</td>
+                    <td>@item.UlkeId</td>
+                    <td>@item.UyrukId</td>
+                    <td>@item.YoneticiId</td>
+
+                    <td><a class="btn btn-danger" href="/Personel/Delete/@item.PersonelId">Sil</a></td>
+                    <td><a class="btn btn-success" href="/Personel/Update/@item.PersonelId">Güncelle</a></td>
+                </tr>
+
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+

@@ -1,0 +1,18 @@
+C:\301Sabah\13-MVC\Frameworkproje\Framework\bin\Debug\Framework.dll
+C:\301Sabah\13-MVC\Frameworkproje\Framework\bin\Debug\Framework.pdb
+C:\301Sabah\13-MVC\Frameworkproje\Framework\bin\Debug\Dapper.dll
+C:\301Sabah\13-MVC\Frameworkproje\Framework\bin\Debug\Dapper.xml
+C:\301Sabah\13-MVC\Frameworkproje\Framework\obj\Debug\Framework.csproj.AssemblyReference.cache
+C:\301Sabah\13-MVC\Frameworkproje\Framework\obj\Debug\Framework.csproj.CoreCompileInputs.cache
+C:\301Sabah\13-MVC\Frameworkproje\Framework\obj\Debug\Framework.csproj.CopyComplete
+C:\301Sabah\13-MVC\Frameworkproje\Framework\obj\Debug\Framework.dll
+C:\301Sabah\13-MVC\Frameworkproje\Framework\obj\Debug\Framework.pdb
+C:\Users\SC-301 2\Desktop\Frameworkproje\Framework\obj\Debug\Framework.csproj.AssemblyReference.cache
+C:\Users\SC-301 2\Desktop\Frameworkproje\Framework\obj\Debug\Framework.csproj.CoreCompileInputs.cache
+C:\Users\SC-301 2\Desktop\Frameworkproje\Framework\obj\Debug\Framework.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\Framework\obj\Debug\Framework.pdb
+C:\Users\SC-301 2\Desktop\Frameworkproje\Framework\bin\Debug\Framework.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\Framework\bin\Debug\Framework.pdb
+C:\Users\SC-301 2\Desktop\Frameworkproje\Framework\bin\Debug\Dapper.dll
+C:\Users\SC-301 2\Desktop\Frameworkproje\Framework\bin\Debug\Dapper.xml
+C:\Users\SC-301 2\Desktop\Frameworkproje\Framework\obj\Debug\Framework.csproj.CopyComplete

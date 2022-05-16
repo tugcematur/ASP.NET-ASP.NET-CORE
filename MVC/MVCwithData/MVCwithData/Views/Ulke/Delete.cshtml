@@ -1,0 +1,13 @@
+﻿@model MVCwithData.Models.Classes.Ulke
+
+<div class="row">
+    <div class="col-md-7">
+        <form method="post">
+            <label>Id</label>
+            <input class="form-control " type="hidden" value="@Model.UlkeId" name="UlkeId" /> @*Property ismi ile name aynı olmalı olmasa da uzun bir yolu var,id gizli duyor gözükmüyor sayfada.*@
+            <label>Ad</label>
+            <input class="form-control " type="text" value="@Model.UlkeAd" name="UlkeAd" /> @*name 'i' değiştirirsek  hata verir, Modeldeki ile aynı olmalı yoksa modal değeri null gelir.*@
+            <input class="btn btn-danger" type="submit" value="Sil" />
+        </form>
+    </div>
+</div>

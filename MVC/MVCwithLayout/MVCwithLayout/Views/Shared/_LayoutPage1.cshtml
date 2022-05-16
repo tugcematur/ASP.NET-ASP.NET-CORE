@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+
+<html>
+                                          @*web projemizin View katmanı içinde bulunan bütün .cshtml sayfalarının aynı Layout sayfasını kullanacağını belirtebiliriz. Shared'e ekliyoruz bu yüzden'
+                                              Layout.cshtml sabit motodlara bağlı olarak view ler değişiyor*@
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div>
+        <h3 style="color:red; text-align:center"> Mvc Proje</h3>
+
+        <a href="/Home/Index">Ana Sayfa</a>    @*home controller ında index metoduna git , ctrl+k+c*@
+        <a href="/Home/About">Biz Kimiz</a>
+        <a href="/Home/Contact">Biz Ulaşın</a>
+        <a href="/Personel/List">Personeller İşlemleri</a>
+    </div>
+    <div>
+        @RenderBody()         @*sayfaların içerikleri gelecek ve bu sayfa sabit kalacak.*@
+
+        RenderBody() metodu;
+                                                              @*Bu metod teorik olarak Layout sayfamızın temelini teşkil etmektedir.Yani buradaki kastım, bu Layout sayfasından 
+                                                             türetilen bir .cshtml sayfasının ilk yayınlanacağı alan varsayılan olarak RenderBody() metodunun bulunduğu alandır.*@
+    </div>
+</body>
+</html>

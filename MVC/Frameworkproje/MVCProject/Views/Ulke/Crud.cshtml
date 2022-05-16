@@ -1,0 +1,19 @@
+﻿@model  MVCProject.Models.Views.UlkeModel
+
+
+<h2>@Model.Baslik</h2>
+<br />
+<div class="row">
+    <div class="col-md-7">
+        <form method="post">
+
+            @*POST *@
+
+            <label>@Model.Label</label>
+            <input class="form-control" value="@Model.Ulke.UlkeId"  name="UlkeId" type="@Model.Type"  />
+            <input class="form-control " type="text" value="@Model.Ulke.UlkeAd" name="UlkeAd" /> @*name 'i' değiştirirsek  hata verir, Modeldeki ile aynı olmalı yoksa modal değeri null gelir.*@
+            <input class="@Model.BtnClass" type="submit" value="@Model.BtnVal" />
+            <input type="submit" class="btn btn-warning" value="İptal" formaction="List" />
+        </form>
+    </div>
+</div>
