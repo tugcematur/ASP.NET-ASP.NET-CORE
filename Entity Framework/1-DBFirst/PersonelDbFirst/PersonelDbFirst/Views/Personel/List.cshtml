@@ -1,0 +1,64 @@
+﻿@model List<PersonelDbFirst.Models.DTO.PersonelDTO>
+@{
+    ViewBag.Title = "List";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<h2>Personel Listesi</h2>
+
+<div class="row">
+    <div class="col-md-7">
+        <form method="post" action="/Personel/Create">
+
+        <a class="btn btn-primary" href="/Personel/Create">Yeni Kayıt</a>    @*Formaction özelliği form verilerinin nereye gönderileceğini tanımlar.*@   @*submit Post anlamına geldiği için post bekliyor bu yüzden input kullanamadık.*@
+
+        </form>
+
+        <div class="alert @Session["cls"]" role="alert">
+            @Session["mesaj"]
+        </div>
+        <table class="table table-hover">
+
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Ad</th>
+                    <th>Soyad</th>
+                    <th>Unvan </th>
+                    <th>Ikamet</th>
+                    <th>Maaş</th>
+                    <th>Yönetici</th>
+                    <th>Uyruk</th>
+                    <th>Sil</th>
+                    <th>Güncelle</th>
+
+                </tr>
+            </thead>
+            <tbody>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.Ad</td>
+                        <td>@item.Soyad</td>
+                        <td>@item.UnvanAd</td>
+                        <td>@item.Ikamet</td>
+                        <td>@item.Maas</td>
+                        <td>@item.Yonetici</td>
+                        <td>@item.Uyruk</td>
+                        <td><a href="/Personel/Delete/@item.Id" class="btn btn-danger">Sil</a></td>
+                        <td><a href="/Personel/Update/@item.Id" class="btn btn-success">Güncelle</a></td>
+
+                    </tr>
+                }
+
+
+
+            </tbody>
+
+        </table>
+
+
+    </div>
+</div>

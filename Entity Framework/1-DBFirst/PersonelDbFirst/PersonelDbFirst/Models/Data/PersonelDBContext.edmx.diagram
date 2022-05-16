@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="92942d336ec445d096a5cd37210a0aa9" Name="Diagram1">
+        <EntityTypeShape EntityType="perdb2Model.Personel" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="perdb2Model.Ulke" Width="1.5" PointX="0.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="perdb2Model.Unvan" Width="1.5" PointX="0.75" PointY="6" IsExpanded="true" />
+        <AssociationConnector Association="perdb2Model.FK_Personel_Personel" ManuallyRouted="false" />
+        <AssociationConnector Association="perdb2Model.FK_Personel_Ulke" ManuallyRouted="false" />
+        <AssociationConnector Association="perdb2Model.FK_Personel_Ulke1" ManuallyRouted="false" />
+        <AssociationConnector Association="perdb2Model.FK_Personel_Unvan" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

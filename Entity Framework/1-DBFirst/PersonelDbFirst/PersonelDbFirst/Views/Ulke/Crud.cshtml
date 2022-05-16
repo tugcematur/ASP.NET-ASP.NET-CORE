@@ -1,0 +1,36 @@
+﻿@model PersonelDbFirst.Models.ViewModels.UlkeModel
+@{
+    ViewBag.Title = "Crud";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+
+
+<div class="row">
+    <div class="col-md-7">
+        <h2>@Model.Baslik</h2>
+        <hr />
+   
+        <form method="post">
+            <div>
+                <input class="form-control" type="@Model.InputType" value="@Model.Ulke.UlkeId" name="UlkeId" />
+            </div>
+
+            <div>
+                <label>Ulke Ad</label>
+                <input class="form-control" type="text" value="@Model.Ulke.UlkeAd" name="UlkeAd"/>
+            </div>
+
+            <input type="submit" class="@Model.BtnClass"  value="@Model.BtnVal"  />
+            <a href="/Ulke/List"  class="btn btn-warning">İptal</a>
+        </form>
+       
+
+    </div>
+</div>
+
+
+
+
+
+

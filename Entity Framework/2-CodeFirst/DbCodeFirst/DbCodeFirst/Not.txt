@@ -1,0 +1,41 @@
+﻿Empty-> Mvc i kutucuğunu seçtik
+Models e Data klasörü  ekledik
+Data->ADO.Net->adını PerContext yaptık->Empty Code First seç
+Properties ->Settings-> Connection String-> olmayan bir database ismi yaz PerDb yazdık OK dedik.
+
+
+
+
+
+
+Code First Nedir?
+Veritabanı ile Programlama dili arasında bağ kuran bir tekniktir. Projenizde veritabanı işlemlerinizi mümkün mertebe Visual Studio tarafında kod yazarak gerçekleştirmenizi sağlayan bir yaklaşımdır.
+Bu yaklaşım sayesinde veritabanı arayüzü ile yazılımcı arasında ilişki minimize edilmektedir.
+
+
+Code First yapısında programlama dilindeki “class” yapıları veritabanındaki “tablo” yapılarına, “property” yapıları ise veritabanındaki “kolon” yapılarına denk gelmektedir.
+
+
+Ayrıca Attribute’lar sayesinde veritabanı yapılarına Validationlar uygulanabilmekte ve kolonlara belirli şartlar veyahut kısıtlamalar koyulabilmektedir.
+
+
+           Migration (veritbanı)
+        1.Enable-Migrations  
+        2.Add-Migration ilk
+        3.Update-Database
+        4. Gerekli ise 2. Adıma git.
+         kod kısmında yaptığımız değişiklikleri veritabanına yansıtmaya Migration demekteyiz.
+
+        tools -> packagemanager-console -> 
+        e yaz tab a bas 
+        Code First deseni uygulanan bir projede veritabanına direkt olarak müdahale etmek oldukça sakıncalıdır.
+        Haliyle yapacağımız ekleme, çıkarma veyahut güncelleme durumlarını tabloları temsil eden classlar üzerinde gerçekleştirmeli ve Generate etmeliyiz.
+
+        veitabanından Pesonels tablosunu sil-> close existing işaretle
+        Migrations folderını sil
+        Bütün işlemleri tekrar yap 
+
+
+    sonradan Soyad eklersek-> 2. Adım a git Add-Migration soyadEklendi ->3. Adım Update-Database
+
+        Bütün Migrationlar bir tabloda tutuluyor

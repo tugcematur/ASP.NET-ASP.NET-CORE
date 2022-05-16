@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="perdb2ModelStoreContainer" CdmEntityContainer="perdb2Entities">
+    <EntitySetMapping Name="Personel">
+      <EntityTypeMapping TypeName="perdb2Model.Personel">
+        <MappingFragment StoreEntitySet="Personel">
+          <ScalarProperty Name="PersonelId" ColumnName="PersonelId" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="Soyad" ColumnName="Soyad" />
+          <ScalarProperty Name="Maas" ColumnName="Maas" />
+          <ScalarProperty Name="UnvanId" ColumnName="UnvanId" />
+          <ScalarProperty Name="UlkeId" ColumnName="UlkeId" />
+          <ScalarProperty Name="UyrukId" ColumnName="UyrukId" />
+          <ScalarProperty Name="YoneticiId" ColumnName="YoneticiId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ulke">
+      <EntityTypeMapping TypeName="perdb2Model.Ulke">
+        <MappingFragment StoreEntitySet="Ulke">
+          <ScalarProperty Name="UlkeId" ColumnName="UlkeId" />
+          <ScalarProperty Name="UlkeAd" ColumnName="UlkeAd" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Unvan">
+      <EntityTypeMapping TypeName="perdb2Model.Unvan">
+        <MappingFragment StoreEntitySet="Unvan">
+          <ScalarProperty Name="UnvanId" ColumnName="UnvanId" />
+          <ScalarProperty Name="UnvanAd" ColumnName="UnvanAd" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

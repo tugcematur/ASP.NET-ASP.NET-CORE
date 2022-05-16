@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="perdb2Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Personel">
+    <Key>
+      <PropertyRef Name="PersonelId" />
+    </Key>
+    <Property Name="PersonelId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Ad" Type="nvarchar" MaxLength="50" />
+    <Property Name="Soyad" Type="nvarchar" MaxLength="50" />
+    <Property Name="Maas" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="UnvanId" Type="int" />
+    <Property Name="UlkeId" Type="nvarchar" MaxLength="3" />
+    <Property Name="UyrukId" Type="nvarchar" MaxLength="3" />
+    <Property Name="YoneticiId" Type="int" />
+  </EntityType>
+  <EntityType Name="Ulke">
+    <Key>
+      <PropertyRef Name="UlkeId" />
+    </Key>
+    <Property Name="UlkeId" Type="nvarchar" MaxLength="3" Nullable="false" />
+    <Property Name="UlkeAd" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Unvan">
+    <Key>
+      <PropertyRef Name="UnvanId" />
+    </Key>
+    <Property Name="UnvanId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UnvanAd" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_Personel_Personel">
+    <End Role="Personel" Type="Self.Personel" Multiplicity="0..1" />
+    <End Role="Personel1" Type="Self.Personel" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Personel">
+        <PropertyRef Name="PersonelId" />
+      </Principal>
+      <Dependent Role="Personel1">
+        <PropertyRef Name="YoneticiId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Personel_Ulke">
+    <End Role="Ulke" Type="Self.Ulke" Multiplicity="0..1" />
+    <End Role="Personel" Type="Self.Personel" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ulke">
+        <PropertyRef Name="UlkeId" />
+      </Principal>
+      <Dependent Role="Personel">
+        <PropertyRef Name="UlkeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Personel_Ulke1">
+    <End Role="Ulke" Type="Self.Ulke" Multiplicity="0..1" />
+    <End Role="Personel" Type="Self.Personel" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ulke">
+        <PropertyRef Name="UlkeId" />
+      </Principal>
+      <Dependent Role="Personel">
+        <PropertyRef Name="UyrukId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Personel_Unvan">
+    <End Role="Unvan" Type="Self.Unvan" Multiplicity="0..1" />
+    <End Role="Personel" Type="Self.Personel" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Unvan">
+        <PropertyRef Name="UnvanId" />
+      </Principal>
+      <Dependent Role="Personel">
+        <PropertyRef Name="UnvanId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="perdb2ModelStoreContainer">
+    <EntitySet Name="Personel" EntityType="Self.Personel" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Ulke" EntityType="Self.Ulke" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Unvan" EntityType="Self.Unvan" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Personel_Personel" Association="Self.FK_Personel_Personel">
+      <End Role="Personel" EntitySet="Personel" />
+      <End Role="Personel1" EntitySet="Personel" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Personel_Ulke" Association="Self.FK_Personel_Ulke">
+      <End Role="Ulke" EntitySet="Ulke" />
+      <End Role="Personel" EntitySet="Personel" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Personel_Ulke1" Association="Self.FK_Personel_Ulke1">
+      <End Role="Ulke" EntitySet="Ulke" />
+      <End Role="Personel" EntitySet="Personel" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Personel_Unvan" Association="Self.FK_Personel_Unvan">
+      <End Role="Unvan" EntitySet="Unvan" />
+      <End Role="Personel" EntitySet="Personel" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

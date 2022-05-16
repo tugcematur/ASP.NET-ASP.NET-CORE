@@ -1,0 +1,49 @@
+﻿@model List<PersonelDbFirst.Models.Data.Unvan>
+@{
+    ViewBag.Title = "List";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+
+
+<h2>Unvan Listesi</h2>
+<div class="row">
+    <div class="col-md-7">
+        <form>
+            @*type submit olduğundan method=post a gerek yok*@
+            <input class="btn btn-primary" type="submit" value="Yeni Kayıt" formaction="/Unvan/Create" />
+        </form>
+        @*Role, bir web uygulamasında bir elementin en doğru işlevini belirtmeye yarayan özelliktir. Kullanımı da temiz bir Html yazımı için zorunludur*@
+        <div class="alert @Session["clr"] " role="alert">
+
+            @Session["Mesaj"]
+
+        </div>
+
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Ad</th>
+                    <th>Sil</th>
+                    <th>Güncelle</th>
+                    <th>İlgili Personel</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.UnvanId</td>
+                        <td>@item.UnvanAd</td>
+                        <td><a href="/Unvan/Delete/@item.UnvanId" class="btn btn-danger">Sil</a></td>
+                        <td><a href="/Unvan/Update/@item.UnvanId" class="btn btn-success">Güncelle</a></td>
+                        <td><a href="/Personel/ListByUnvanId/@item.UnvanId" class="btn btn-info">İlgili Personel</a></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+

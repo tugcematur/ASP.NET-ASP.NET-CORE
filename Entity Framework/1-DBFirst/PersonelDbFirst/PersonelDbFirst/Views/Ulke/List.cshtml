@@ -1,0 +1,47 @@
+﻿@model List<PersonelDbFirst.Models.Data.Ulke>
+@{
+    ViewBag.Title = "List";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<h2>Ülke Listesi</h2>
+
+<div class="row">
+    <div class="col-md-7">
+        <form>
+            @*type submit olduğundan method=post a gerek yok*@
+            <input class="btn btn-primary" type="submit" value="Yeni Kayıt" formaction="/Ulke/Create" />
+        </form>
+        @*Role, bir web uygulamasında bir elementin en doğru işlevini belirtmeye yarayan özelliktir. Kullanımı da temiz bir Html yazımı için zorunludur*@
+        <div class="alert @Session["cls"] " role="alert">
+
+            @Session["Mesaj"]
+
+        </div>
+
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Ad</th>
+                    <th>Sil</th>
+                    <th>Güncelle</th>
+                    
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.UlkeId</td>
+                        <td>@item.UlkeAd</td>
+                        <td><a href="/Ulke/Delete/@item.UlkeId" class="btn btn-danger">Sil</a></td>
+                        <td><a href="/Ulke/Update/@item.UlkeId" class="btn btn-success">Güncelle</a></td>
+                        
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

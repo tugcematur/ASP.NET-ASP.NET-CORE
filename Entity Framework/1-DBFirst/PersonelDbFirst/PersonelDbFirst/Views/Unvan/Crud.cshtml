@@ -1,0 +1,31 @@
+﻿@model PersonelDbFirst.Models.ViewModels.UnvanModel
+@{
+    ViewBag.Title = "Crud";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-7">
+        <h2>@Model.Baslik</h2>
+        <hr />
+        <form method="post">
+            <div>
+
+                <input class="form-control" type="@Model.InputType" value="@Model.Unvan.UnvanId" name="UnvanId" />
+            </div>
+
+            <div>
+                <label>Unvan Ad</label>
+                <input class="form-control" type="text" value="@Model.Unvan.UnvanAd" name="UnvanAd" />
+            </div>
+
+            <input type="submit" value="@Model.BtnVal" class="@Model.BtnClass" />
+            <a href="/Unvan/List" class="btn btn-warning">İptal</a>
+
+
+        </form>
+     
+    </div>
+</div>
+
+

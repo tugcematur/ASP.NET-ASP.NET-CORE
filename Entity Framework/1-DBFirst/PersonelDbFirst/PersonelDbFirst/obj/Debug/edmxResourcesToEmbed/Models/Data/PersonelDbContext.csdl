@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="perdb2Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Personel">
+    <Key>
+      <PropertyRef Name="PersonelId" />
+    </Key>
+    <Property Name="PersonelId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Ad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Soyad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Maas" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="UnvanId" Type="Int32" />
+    <Property Name="UlkeId" Type="String" MaxLength="3" FixedLength="false" Unicode="true" />
+    <Property Name="UyrukId" Type="String" MaxLength="3" FixedLength="false" Unicode="true" />
+    <Property Name="YoneticiId" Type="Int32" />
+    <NavigationProperty Name="Personel1" Relationship="Self.FK_Personel_Personel" FromRole="Personel" ToRole="Personel1" />
+    <NavigationProperty Name="Personel2" Relationship="Self.FK_Personel_Personel" FromRole="Personel1" ToRole="Personel" />
+    <NavigationProperty Name="Ulke" Relationship="Self.FK_Personel_Ulke" FromRole="Personel" ToRole="Ulke" />
+    <NavigationProperty Name="Ulke1" Relationship="Self.FK_Personel_Ulke1" FromRole="Personel" ToRole="Ulke" />
+    <NavigationProperty Name="Unvan" Relationship="Self.FK_Personel_Unvan" FromRole="Personel" ToRole="Unvan" />
+  </EntityType>
+  <EntityType Name="Ulke">
+    <Key>
+      <PropertyRef Name="UlkeId" />
+    </Key>
+    <Property Name="UlkeId" Type="String" MaxLength="3" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="UlkeAd" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Personel" Relationship="Self.FK_Personel_Ulke" FromRole="Ulke" ToRole="Personel" />
+    <NavigationProperty Name="Personel1" Relationship="Self.FK_Personel_Ulke1" FromRole="Ulke" ToRole="Personel" />
+  </EntityType>
+  <EntityType Name="Unvan">
+    <Key>
+      <PropertyRef Name="UnvanId" />
+    </Key>
+    <Property Name="UnvanId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UnvanAd" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Personel" Relationship="Self.FK_Personel_Unvan" FromRole="Unvan" ToRole="Personel" />
+  </EntityType>
+  <Association Name="FK_Personel_Personel">
+    <End Role="Personel" Type="Self.Personel" Multiplicity="0..1" />
+    <End Role="Personel1" Type="Self.Personel" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Personel">
+        <PropertyRef Name="PersonelId" />
+      </Principal>
+      <Dependent Role="Personel1">
+        <PropertyRef Name="YoneticiId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Personel_Ulke">
+    <End Role="Ulke" Type="Self.Ulke" Multiplicity="0..1" />
+    <End Role="Personel" Type="Self.Personel" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ulke">
+        <PropertyRef Name="UlkeId" />
+      </Principal>
+      <Dependent Role="Personel">
+        <PropertyRef Name="UlkeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Personel_Ulke1">
+    <End Role="Ulke" Type="Self.Ulke" Multiplicity="0..1" />
+    <End Role="Personel" Type="Self.Personel" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ulke">
+        <PropertyRef Name="UlkeId" />
+      </Principal>
+      <Dependent Role="Personel">
+        <PropertyRef Name="UyrukId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Personel_Unvan">
+    <End Role="Unvan" Type="Self.Unvan" Multiplicity="0..1" />
+    <End Role="Personel" Type="Self.Personel" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Unvan">
+        <PropertyRef Name="UnvanId" />
+      </Principal>
+      <Dependent Role="Personel">
+        <PropertyRef Name="UnvanId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="perdb2Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Personel" EntityType="Self.Personel" />
+    <EntitySet Name="Ulke" EntityType="Self.Ulke" />
+    <EntitySet Name="Unvan" EntityType="Self.Unvan" />
+    <AssociationSet Name="FK_Personel_Personel" Association="Self.FK_Personel_Personel">
+      <End Role="Personel" EntitySet="Personel" />
+      <End Role="Personel1" EntitySet="Personel" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Personel_Ulke" Association="Self.FK_Personel_Ulke">
+      <End Role="Ulke" EntitySet="Ulke" />
+      <End Role="Personel" EntitySet="Personel" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Personel_Ulke1" Association="Self.FK_Personel_Ulke1">
+      <End Role="Ulke" EntitySet="Ulke" />
+      <End Role="Personel" EntitySet="Personel" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Personel_Unvan" Association="Self.FK_Personel_Unvan">
+      <End Role="Unvan" EntitySet="Unvan" />
+      <End Role="Personel" EntitySet="Personel" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
