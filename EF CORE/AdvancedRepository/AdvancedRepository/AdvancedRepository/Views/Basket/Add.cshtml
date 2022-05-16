@@ -1,0 +1,37 @@
+﻿@model AdvancedRepository.Models.ViewModels.BasketModel
+@{
+    ViewData["Title"] = "Add";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="row">
+    <div class="col-md-5">
+        <h4>Ürün Ekleme</h4>
+        <hr />
+        <form method="post">
+            <label>Product</label>
+            <select asp-for="Id" class="form-control">
+                @foreach (var item in Model.Products)
+                {
+
+                    <option value="@item.Id">
+                        @item.ProductName
+                    </option>
+                }
+            </select>
+            <label>Amount</label>
+            <input class="form-control" type="text" asp-for="Amount" />
+            <input type="hidden" asp-for="Id" />  @*Seçtiğimiz Id si, yazmazsak boş gider*@ 
+            
+            <div>
+                <input type="submit" value="Submit" class="btn btn-primary" />
+            </div>
+                
+           
+        </form>
+ 
+
+
+    </div>
+</div>

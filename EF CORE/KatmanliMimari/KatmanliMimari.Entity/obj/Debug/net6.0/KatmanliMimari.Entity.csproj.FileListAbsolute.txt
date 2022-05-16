@@ -1,0 +1,14 @@
+C:\301Sabah\15-EF CORE\KatmanliMimari\KatmanliMimari.Entity\bin\Debug\net6.0\KatmanliMimari.Entity.deps.json
+C:\301Sabah\15-EF CORE\KatmanliMimari\KatmanliMimari.Entity\bin\Debug\net6.0\KatmanliMimari.Entity.runtimeconfig.json
+C:\301Sabah\15-EF CORE\KatmanliMimari\KatmanliMimari.Entity\bin\Debug\net6.0\KatmanliMimari.Entity.dll
+C:\301Sabah\15-EF CORE\KatmanliMimari\KatmanliMimari.Entity\bin\Debug\net6.0\KatmanliMimari.Entity.pdb
+C:\301Sabah\15-EF CORE\KatmanliMimari\KatmanliMimari.Entity\obj\Debug\net6.0\KatmanliMimari.Entity.csproj.AssemblyReference.cache
+C:\301Sabah\15-EF CORE\KatmanliMimari\KatmanliMimari.Entity\obj\Debug\net6.0\KatmanliMimari.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\301Sabah\15-EF CORE\KatmanliMimari\KatmanliMimari.Entity\obj\Debug\net6.0\KatmanliMimari.Entity.AssemblyInfoInputs.cache
+C:\301Sabah\15-EF CORE\KatmanliMimari\KatmanliMimari.Entity\obj\Debug\net6.0\KatmanliMimari.Entity.AssemblyInfo.cs
+C:\301Sabah\15-EF CORE\KatmanliMimari\KatmanliMimari.Entity\obj\Debug\net6.0\KatmanliMimari.Entity.csproj.CoreCompileInputs.cache
+C:\301Sabah\15-EF CORE\KatmanliMimari\KatmanliMimari.Entity\obj\Debug\net6.0\KatmanliMimari.Entity.dll
+C:\301Sabah\15-EF CORE\KatmanliMimari\KatmanliMimari.Entity\obj\Debug\net6.0\refint\KatmanliMimari.Entity.dll
+C:\301Sabah\15-EF CORE\KatmanliMimari\KatmanliMimari.Entity\obj\Debug\net6.0\KatmanliMimari.Entity.pdb
+C:\301Sabah\15-EF CORE\KatmanliMimari\KatmanliMimari.Entity\obj\Debug\net6.0\KatmanliMimari.Entity.genruntimeconfig.cache
+C:\301Sabah\15-EF CORE\KatmanliMimari\KatmanliMimari.Entity\obj\Debug\net6.0\ref\KatmanliMimari.Entity.dll

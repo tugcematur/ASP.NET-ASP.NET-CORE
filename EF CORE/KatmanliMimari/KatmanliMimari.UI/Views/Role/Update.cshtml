@@ -1,0 +1,24 @@
+﻿@model KatmanliMimari.Dal.Users.AspNetRole
+@{
+    ViewData["Title"] = "Update";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+
+<div class="row">
+    <div class="col-md-7">
+        <h1>Update</h1>
+       <form method="post">
+           <label> Id</label>
+           <input type="text" name="AspNetRole.Id" value="@Model.Id" class="form-control" readonly/>
+
+           <label>Roles</label>
+          <input type="text" name="AspNetRole.Name"   value="@Model.Name"  class="form-control" readonly/> 
+          <br />
+          <input type="submit" value="Delete" class="btn btn-danger" />
+
+       </form>
+    </div>
+</div>
+

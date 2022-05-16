@@ -1,0 +1,22 @@
+﻿@model AdvancedRepository.Models.Classes.FatDetail
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Delete</h1>
+
+<div>
+    <h4>FatDetail</h4>
+    <hr />
+   
+    
+    <form method="post">
+      
+        <input  asp-for="Id" readonly class="form-control"/>
+        <input asp-for="ProductId" class="form-control" readonly/>
+        <input type="submit" value="Delete" class="btn btn-danger" /> 
+        <a asp-action="Create" class="btn btn-primary">Back to List</a>
+    </form>
+</div>

@@ -1,0 +1,39 @@
+﻿@model AdvancedRepository.Models.ViewModels.EmployeeDetails
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Employee Details</h1>
+<hr />
+
+<table>
+    <thead>
+        <tr>
+            <th>Employee Id</th>
+            <th>Full Name</th>
+            <th>Header</th>
+            <th>Salary</th>
+        </tr>
+    </thead>
+    <tbody>
+
+            <tr>
+                <td>@Model.Id</td>
+               <td>@Model.FullName</td>
+                <td>@Model.Header</td>
+                <td>@Model.Salary</td>
+  
+
+    </tbody>
+</table>
+
+
+@*<label>Employee Id</label>
+
+    <input class="form-control" type="text" value="@Model.Id" readonly/>
+    <input class="form-control" type="text" value="@Model.Header" readonly />
+
+*@
+
+

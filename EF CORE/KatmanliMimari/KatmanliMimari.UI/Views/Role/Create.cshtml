@@ -1,0 +1,24 @@
+﻿@model KatmanliMimari.UI.Models.AspNetRoleModel
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+<div class="row">
+    <div class="col-md-7">
+        <h1>Create</h1>
+       <form method="post">
+           <label> Id</label>
+           <input type="text" name="AspNetRole.Id" value="@Model.Id" class="form-control"/>
+
+           <label>Roles</label>
+          <input type="text" name="AspNetRole.Name"   value="@Model.Name"  class="form-control"/> 
+          <br />
+          <input type="submit" value="Add" class="btn btn-primary" />
+
+       </form>
+    </div>
+</div>
+
+

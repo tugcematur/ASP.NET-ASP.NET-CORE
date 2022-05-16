@@ -1,0 +1,35 @@
+﻿Blazor yerine React öğrenicez, blazor tutmadı
+Razor Page te Burada controller yok, onun yerine küçük ükçük folerlar yaratıcaz. İstersek normal MVC proje oluşturup oradan da Razor page oluşturabliriz.
+
+layout ta ssp-page kullanıyoruz asp-comtroller olmaz.Page in atını yazarız
+
+Paketleri yüklicez :
+
+-EF core
+-Core Tools 
+-Sql Server Core
+
+Db First
+scaffolding exsisting database
+ Scaffold-DbContext "Server=DESKTOP-HRRA875\SQLEXPRESS;Database=PerDbCore;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Data 
+
+
+ Pages-> Add RazorPage
+
+ City.cshtml.cs -> Controller yerine geçiyor 
+
+
+ Model bağlama nedir?
+Denetleyiciler Razor ve sayfalar HTTP isteklerinden gelen verilerle çalışır. Örneğin, yol verileri bir kayıt anahtarı sağlarken, 
+gönderilen form alanları modelin özellikleri için değerler sağlar. Bu değerlerin her biri için kod yazmak ve bunları dizelerden .NET türlerine
+dönüştürmek sıkıcı ve hataya açık olabilir. Model bağlaması bu işlemi otomatik hale gösterir. Model bağlama sistemi:
+
+Rota verileri, form alanları ve sorgu dizeleri gibi çeşitli kaynaklardan veri alınır.
+Yöntem parametrelerinde ve genel özelliklerde Razor denetleyicilere ve sayfalara verileri sağlar.
+Dize verilerini .NET türlerine dönüştürür.
+Karmaşık türlerin özelliklerini güncelleştirme.
+ Bind Properties ?
+
+   [BindProperties("CityList")]
+
+   Razor page yarattığımızda   City.cshtml.cs ve  City.cshtml dosyaları oluşur Pages folder ı içinde, ayrıca model class oluşturmamıza gerek kalmadı.

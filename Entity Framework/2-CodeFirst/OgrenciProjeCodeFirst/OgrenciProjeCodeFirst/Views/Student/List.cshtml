@@ -1,0 +1,55 @@
+﻿@model List<OgrenciProjeCodeFirst.Models.DTOs.StudentDTO>
+@{
+    ViewBag.Title = "List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<div class="row">
+    <div class="col-md-7">
+        <h2>Student List</h2>
+
+        <form method="post" action="/Student/Create">
+            <a href="/Student/Create" class="btn btn-primary"> Yeni Kayıt</a>
+        </form>
+
+        <div class="alert @Session["cls"]" role="alert">
+
+            @Session["mesaj"]
+        </div>
+
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Surname</th>
+                    <th>City Name</th>
+                    <th>Mother Name</th>
+                    <th>Sil</th>
+                    <th>Güncelle</th>
+                </tr>
+            </thead>
+
+
+            <tbody>
+                @foreach (var item in Model)
+                {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Name</td>
+                    <td>@item.Surname</td>
+                    <td>@item.CityName</td>
+                    <td>@item.Mothername</td>
+                    <td><a href="/Student/Delete/@item.Id" class="btn btn-danger">Sil</a></td>
+                    <td><a href="/Student/Update/@item.Id" class="btn btn-success">Güncelle</a></td>
+                </tr>
+                }
+
+            </tbody>
+        </table>
+
+    </div>
+</div>
+

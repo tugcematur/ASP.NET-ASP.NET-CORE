@@ -1,0 +1,47 @@
+﻿@model List <OgrenciProjeCodeFirst.Models.Data.City>
+@{
+    ViewBag.Title = "List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<div class="row">
+    <div class="col-md-7">
+
+        <h2>City List</h2>
+
+        <form method="post">
+            <a href="/City/Create" class="btn btn-primary">Yeni Kayıt</a>
+        </form>
+
+        <div class="alert @Session["cls"]" role="alert">
+
+            @Session["mesaj"]
+        </div>
+
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>City Id</th>
+                    <th>City Name</th>
+                    <th>Sil</th>
+                    <th>Güncelle</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (var item in Model)
+                {
+                <tr>
+                    <td>@item.CityId</td>
+                    <td>@item.CityName</td>
+                    <td><a href="/City/Delete/@item.CityId" class="btn btn-danger">Sil</a></td>
+                    <td><a href="/City/Update/@item.CityId"  class="btn btn-success">Güncelle</a></td>
+                </tr>
+                }
+            </tbody>
+        </table>
+
+    </div>
+</div>

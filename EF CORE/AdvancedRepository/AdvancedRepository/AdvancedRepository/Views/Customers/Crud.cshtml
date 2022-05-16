@@ -1,0 +1,129 @@
+﻿@model AdvancedRepository.Models.ViewModels.CustomersModel
+
+@{
+    ViewData["Title"] = "Crud";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+
+
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <h4>@Model.Header</h4>
+            <hr />
+
+            <div class="form-group" hidden>
+                <input asp-for="Customers.Id" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Customers.Rating" class="control-label"></label>
+                <input asp-for="Customers.Rating" class="form-control" />
+                <span asp-validation-for="Customers.Rating" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Customers.Street" class="control-label"></label>
+                <input asp-for="Customers.Street" class="form-control" />
+                <span asp-validation-for="Customers.Street" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Customers.Avenue" class="control-label"></label>
+                <input asp-for="Customers.Avenue" class="form-control" />
+                <span asp-validation-for="Customers.Avenue" class="text-danger"></span>
+            </div>
+
+            @*<div class="form-group">
+                <label>City Name</label>
+                <select name="Customers.C" class="form-control">
+
+                    @foreach (var item in Model.Cities)
+                    {
+                        @if (item.Id == Model.Customers.CountyId)
+                        {
+                            <option selected name="Customers.CountyId" style="color:red" value="@item.Id">@item.CountyName</option>
+                        }
+
+                        else
+                        {
+                            <option name="Customers.CountyId" value="@item.Id">@item.CountyName</option>
+                        }
+                    }
+
+                </select>
+            </div>*@
+            <div class="form-group">
+                <label>County Name</label>
+                <select name="Customers.CountyId" class="form-control">
+
+                    @foreach (var item in Model.Counties)
+                    {
+                        @if (item.Id == Model.Customers.CountyId)
+                        {
+                            <option selected name="Customers.CountyId" style="color:red" value="@item.Id">@item.CountyName</option>
+                        }
+
+                        else
+                        {
+                            <option name="Customers.CountyId" value="@item.Id">@item.CountyName</option>
+                        }
+                    }
+
+                </select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Customers.OutDoorNumber" class="control-label"></label>
+                <input asp-for="Customers.OutDoorNumber" class="form-control" />
+                <span asp-validation-for="Customers.OutDoorNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Customers.CompanyName" class="control-label"></label>
+                <input asp-for="Customers.CompanyName" class="form-control" />
+                <span asp-validation-for="Customers.CompanyName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Customers.TaxNumber" class="control-label"></label>
+                <input asp-for="Customers.TaxNumber" class="form-control" />
+                <span asp-validation-for="Customers.TaxNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Customers.ContactName" class="control-label"></label>
+                <input asp-for="Customers.ContactName" class="form-control" />
+                <span asp-validation-for="Customers.ContactName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Customers.PhoneNumber" class="control-label"></label>
+                <input asp-for="Customers.PhoneNumber" class="form-control" />
+                <span asp-validation-for="Customers.PhoneNumber" class="text-danger"></span>
+            </div>
+            @*<div class="form-group">
+            <label asp-for="Customers.CreateDate" class="control-label"></label>
+            <input asp-for="Customers.CreateDate" class="form-control" />
+            <span asp-validation-for="Customers.CreateDate" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Customers.LastUpdated" class="control-label"></label>
+            <input asp-for="Customers.LastUpdated" class="form-control" />
+            <span asp-validation-for="Customers.LastUpdated" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Customers.WhoUpdated" class="control-label"></label>
+            <input asp-for="Customers.WhoUpdated" class="form-control" />
+            <span asp-validation-for="Customers.WhoUpdated" class="text-danger"></span>
+        </div>*@
+            <div class="form-group">
+                <input type="submit" value="@Model.BtnVal" class="@Model.BtnClass" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="List">Customers List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,105 @@
+﻿ KATMANLI MİMARİ 
+ 
+ 
+ Yazdığımız bir kodun, geliştirdiğimiz bir projenin okunabilirliği (readability), anlaşılabilirliği , tekrar kullanılabilirliği (reusability),
+ bakım yapılabilirliği( maintainability) çok önemlidir. Bu yüzden projemizi belirli formatlarda geliştirmeliyiz.
+ Bu açıdan mimari yaklaşımlardan yararlanırız.
+ Projemizi belirli kütüphanelere (library) ayırarak projenin daha düzenli geliştirilmesini ve 
+ projenin daha derli toplu olmasını sağlar. Bu da geliştiriciler için kodun okunabilirliğini de arttırmaktadır.
+
+
+
+ Katmanlı mimaride temel olarak üç katman vardır;
+
+1-  Sunum Katmanı (Presentation Layer)   [User Interfaces,I/O Operations]
+2-  İş Katmanı (Business Layer)          [Processing Data] 
+3-  Veri Katmanı (Data Access Layer)     [Access  Database ,CRUD]
+
+Günümüzde artan gereksinimlerden dolayı servis odaklı gibi mimarilerin gelişmesi ile bu üç katmanlı mimari Çok(n)-Katmanlı mimari haline gelmiştir.
+
+Bu katmanları daha da açarsak;
+
+3-VERİ KATMANI(DATA)
+*Veri Katmanı’ nda sadece veriye erişim işlemleri gerçekleştirilir. 
+*Yani veri tabanı bağlantıları bu katmanda gerçekleştirilir.
+*Veri tabanı bağlantısının yanı sıra ekleme, silme, güncelleme ve veri tabanından veri çekme gibi işlemler bu katmanda yapılmaktadır.
+***Bu katmanda iş kodları, cross-cutting işlemleri gibi işlemler gerçekleştirilmez.
+
+2-İŞ KATMANI (BUSINESS)
+*İş Katmanı’ nda ise sadece iş kodları yazılır yani iş kuralları burada yazılır. 
+*Ancak Business katmanı da Data Access Katmanından yararlanır.
+*Data Access’te çektiğimiz verileri Business katmanda işleriz. 
+Böylelikle projemizde bağımlılıkları ortadan kaldırmış, projenin okunabilirliği ve geliştirilebilirliği daha açık hale getirmiş oluruz.
+
+1-SUNUM KATMANI (PRESENTATION)
+Sunum Katmanı ise MVC uygulaması, Windows Form uygulaması, Android Mobil Uygulama gibi uygulamaların arayüz katmanıdır.
+Yani kullanıcıyla etkileşime geçilen işlemler bu katmanda gerçekleştirilir.
+Bu katmanda kullanıcıdan gelen verileri Business ile Data katmanına yönlendirir.
+Katman sayısı ihtiyaçlara göre değişiklik gösterir. 
+Servis olmayan bir mimari için 4 katman yeterlidir. Fazladan katman olmasının performansla bir alakası yoktur.
+
+
+ Not:Mobil ve web için sadece Viewler değişecek. Katmanlar kulalnılabilecek ikisi tarafından
+
+ Nuget te 6 yaptık sürümleri
+
+Not: Identity Management ?
+
+  Migration en başta yapııyor projeyi oluştururken individual Accounts seçtik
+ Set As startup project -> KatmanliMimari.UI
+
+ appsettings.json da gerekli düzenlemeleri yaptık
+
+
+ Program.cs'e eski core 5 te Startup ta olması gereken şeyler aktarılıyor
+
+ .Dal veri katmanı
+ uof ve Repos iş
+ UI Kullanıcı
+ diğerleri de katman 
+  KatmanliMimari.Dal da   Add-Migration ilk  -Context Context
+                         
+  KatmanliMimari.UI da
+                          Update-Database -Context Context
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+                           DAL -> Data Access Layer
+
+.Core -> .Dal ı ekliyoruz
+.Dal -> .Entity i ekliyoruz
+.Repos -> .Dal
+          .Core
+          .DTO   ekliyoruz
+.UI -> .Dal  ı ekliyoruz
+.Uow -> .Repos ekliyoruz
+
+
+.UI -> Add -> New Scaffolded Item -> Identity -> Changepassword u denedik (.UI daki Context i seçiyoruz ) --> Error veriyor
+
+.Net Core identity ->Program.cs'e yapıştırıyoruz-> Buradan yapıyoruz
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Register a girdip kayıt olduktan sonra Click here to confirm your account a tıklamayı unutma.Confirm 
+
+NOT: Evdeki veritabanında sadece Products ve Categories var bir sorun var onda 
+
+
+sql de ->NetRoles  id=1 Name= Admin Normali.. =Null Concurr...=Null id=2 Name= User 2 tane rolse ekledik 
+        UserRoles  id si userdan  roleid NetRoles ten 
+
+        Userın entity lerine nasıl ulaşıcaz BaSeRepository<>  -> DbFirst ile
+
+
+        Scaffold-DbContext "Server=DESKTOP-HRRA875\SQLEXPRESS;Database=KatmanliDb;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Users  -> .Entity de yap
+
+
+        KatmanliDbContext.cs içindekileri  Context.cs içine yapıştırarak da yapabiliriz 
+
+
+        AspNetUserRole -> composite key Çoka - Çok ilişki var . Bir Rolün birden fazla User ı  ve bir User ın birden fazla rolü olabilir.
+
+
+        Otomatik olarak değil değil de kendimiz de bir çoka çok ilşki yapabiliriz. 
+
+        -------------------------------------------------------------------------------------
+        Razor Page - > yeni çıktı , MVC mantığı aynı 

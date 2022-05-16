@@ -1,0 +1,671 @@
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\appsettings.Development.json
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\appsettings.json
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\AdvancedRepository.exe
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\AdvancedRepository.deps.json
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\AdvancedRepository.runtimeconfig.json
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\AdvancedRepository.runtimeconfig.dev.json
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\AdvancedRepository.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ref\AdvancedRepository.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\AdvancedRepository.pdb
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\AdvancedRepository.Views.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\AdvancedRepository.Views.pdb
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Humanizer.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.csproj.AssemblyReference.cache
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.GeneratedMSBuildEditorConfig.editorconfig
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.AssemblyInfoInputs.cache
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.AssemblyInfo.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.csproj.CoreCompileInputs.cache
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.MvcApplicationPartsAssemblyInfo.cache
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.RazorAssemblyInfo.cache
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.RazorAssemblyInfo.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\scopedcss\bundle\AdvancedRepository.styles.css
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\staticwebassets\AdvancedRepository.StaticWebAssets.Manifest.cache
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.TagHelpers.input.cache
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.TagHelpers.output.cache
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.RazorCoreGenerate.cache
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.RazorTargetAssemblyInfo.cache
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.RazorTargetAssemblyInfo.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.Views.pdb
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.csproj.CopyComplete
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\ref\AdvancedRepository.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.pdb
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.genruntimeconfig.cache
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\System.Composition.Convention.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\System.Composition.Hosting.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\System.Composition.Runtime.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\System.Composition.TypedParts.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Products\List.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Products\Crud.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Categories\List.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Categories\Crud.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Categories\Products.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Units\List.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Units\Crud.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Employees\List.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Employees\Crud.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Customers\List.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Customers\Crud.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Cities\List.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Cities\Crud.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Counties\List.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Counties\Crud.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Employees\Details.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\FatMaster\List.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\FatMaster\Crud.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\FatDetail\Create.cshtml.g.cs
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\appsettings.json
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\AdvancedRepository.exe
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\AdvancedRepository.deps.json
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\AdvancedRepository.runtimeconfig.json
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\AdvancedRepository.runtimeconfig.dev.json
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\AdvancedRepository.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ref\AdvancedRepository.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\AdvancedRepository.pdb
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\AdvancedRepository.Views.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\AdvancedRepository.Views.pdb
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Humanizer.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\System.Composition.Convention.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\System.Composition.Hosting.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\System.Composition.Runtime.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\System.Composition.TypedParts.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.csproj.AssemblyReference.cache
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.AssemblyInfoInputs.cache
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.AssemblyInfo.cs
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.csproj.CoreCompileInputs.cache
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.RazorAssemblyInfo.cache
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.RazorAssemblyInfo.cs
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\staticwebassets\AdvancedRepository.StaticWebAssets.Manifest.cache
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\staticwebassets\AdvancedRepository.StaticWebAssets.xml
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\scopedcss\bundle\AdvancedRepository.styles.css
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.TagHelpers.input.cache
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.TagHelpers.output.cache
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.RazorCoreGenerate.cache
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Categories\Crud.cshtml.g.cs
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Categories\List.cshtml.g.cs
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Categories\Products.cshtml.g.cs
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Cities\Crud.cshtml.g.cs
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Cities\List.cshtml.g.cs
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Counties\Crud.cshtml.g.cs
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Counties\List.cshtml.g.cs
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Customers\Crud.cshtml.g.cs
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Customers\List.cshtml.g.cs
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Employees\Crud.cshtml.g.cs
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Employees\Details.cshtml.g.cs
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Employees\List.cshtml.g.cs
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\FatDetail\Create.cshtml.g.cs
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\FatMaster\Crud.cshtml.g.cs
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Products\Crud.cshtml.g.cs
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Products\List.cshtml.g.cs
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Units\Crud.cshtml.g.cs
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Units\List.cshtml.g.cs
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.RazorTargetAssemblyInfo.cache
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.RazorTargetAssemblyInfo.cs
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.Views.pdb
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.csproj.CopyComplete
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\ref\AdvancedRepository.dll
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.pdb
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.genruntimeconfig.cache
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\FatDetail\List.cshtml.g.cs
+C:\Users\tugce_s5kla9\OneDrive\Masaüstü\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\FatMaster\List.cshtml.g.cs
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\appsettings.json
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\AdvancedRepository.StaticWebAssets.xml
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\AdvancedRepository.exe
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\AdvancedRepository.deps.json
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\AdvancedRepository.runtimeconfig.json
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\AdvancedRepository.runtimeconfig.dev.json
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\AdvancedRepository.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ref\AdvancedRepository.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\AdvancedRepository.pdb
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\AdvancedRepository.Views.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\AdvancedRepository.Views.pdb
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Humanizer.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\System.Composition.Convention.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\System.Composition.Hosting.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\System.Composition.Runtime.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\System.Composition.TypedParts.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.csproj.AssemblyReference.cache
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.AssemblyInfoInputs.cache
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.AssemblyInfo.cs
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.csproj.CoreCompileInputs.cache
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.RazorAssemblyInfo.cache
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.RazorAssemblyInfo.cs
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\scopedcss\bundle\AdvancedRepository.styles.css
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\staticwebassets\AdvancedRepository.StaticWebAssets.Manifest.cache
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.TagHelpers.input.cache
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.TagHelpers.output.cache
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.RazorCoreGenerate.cache
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Categories\Crud.cshtml.g.cs
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Categories\List.cshtml.g.cs
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Categories\Products.cshtml.g.cs
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Cities\Crud.cshtml.g.cs
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Cities\List.cshtml.g.cs
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Counties\Crud.cshtml.g.cs
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Counties\List.cshtml.g.cs
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Customers\Crud.cshtml.g.cs
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Customers\List.cshtml.g.cs
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Employees\Crud.cshtml.g.cs
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Employees\Details.cshtml.g.cs
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Employees\List.cshtml.g.cs
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\FatDetail\Create.cshtml.g.cs
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\FatDetail\List.cshtml.g.cs
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\FatMaster\Crud.cshtml.g.cs
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\FatMaster\List.cshtml.g.cs
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Products\Crud.cshtml.g.cs
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Products\List.cshtml.g.cs
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Units\Crud.cshtml.g.cs
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Units\List.cshtml.g.cs
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.RazorTargetAssemblyInfo.cache
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.RazorTargetAssemblyInfo.cs
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.Views.pdb
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.csproj.CopyComplete
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\ref\AdvancedRepository.dll
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.pdb
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.genruntimeconfig.cache
+C:\Users\SC-301 2\Desktop\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\FatDetail\Update.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\appsettings.Development.json
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\appsettings.json
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\AdvancedRepository.StaticWebAssets.xml
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\AdvancedRepository.exe
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\AdvancedRepository.deps.json
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\AdvancedRepository.runtimeconfig.json
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\AdvancedRepository.runtimeconfig.dev.json
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\AdvancedRepository.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\AdvancedRepository.pdb
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\AdvancedRepository.Views.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\AdvancedRepository.Views.pdb
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Humanizer.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\System.Composition.Convention.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\System.Composition.Hosting.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\System.Composition.Runtime.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\System.Composition.TypedParts.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.csproj.AssemblyReference.cache
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.GeneratedMSBuildEditorConfig.editorconfig
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.AssemblyInfoInputs.cache
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.AssemblyInfo.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.csproj.CoreCompileInputs.cache
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.MvcApplicationPartsAssemblyInfo.cache
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.RazorAssemblyInfo.cache
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.RazorAssemblyInfo.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\scopedcss\bundle\AdvancedRepository.styles.css
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\staticwebassets\AdvancedRepository.StaticWebAssets.Manifest.cache
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.TagHelpers.input.cache
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.TagHelpers.output.cache
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.RazorCoreGenerate.cache
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Categories\Crud.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Categories\List.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Categories\Products.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Cities\Crud.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Cities\List.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Counties\Crud.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Counties\List.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Customers\Crud.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Customers\List.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Employees\Crud.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Employees\Details.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Employees\List.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\FatDetail\Create.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\FatDetail\List.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\FatDetail\Update.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\FatMaster\Crud.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\FatMaster\List.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Products\Crud.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Products\List.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Units\Crud.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Units\List.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.RazorTargetAssemblyInfo.cache
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.RazorTargetAssemblyInfo.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.Views.pdb
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.csproj.CopyComplete
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\ref\AdvancedRepository.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.pdb
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\AdvancedRepository.genruntimeconfig.cache
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\FatDetail\Delete.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\bin\Debug\net5.0\BCrypt.Net-Next.dll
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Auth\Register.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Shared\_LayoutAdmin.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Admin\Index.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Basket\List.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\Razor\Views\Basket\Add.cshtml.g.cs
+C:\301Sabah\15-EF CORE\AdvancedRepository\AdvancedRepository\AdvancedRepository\obj\Debug\net5.0\refint\AdvancedRepository.dll

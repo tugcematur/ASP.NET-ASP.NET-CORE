@@ -1,0 +1,139 @@
+﻿@model AdvancedRepository.Models.ViewModels.EmployeesModel
+
+@{
+    ViewData["Title"] = "Crud";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <h4>@Model.Header</h4>
+            <hr />
+
+            <div class="form-group" hidden>
+                <input asp-for="Employees.Id" class="form-control" />
+            </div>
+
+
+            <div class="form-group">
+                <label asp-for="Employees.Firstname" class="control-label"></label>
+                <input asp-for="Employees.Firstname" class="form-control" />
+                <span asp-validation-for="Employees.Firstname" class="text-danger"></span>
+            </div>
+
+
+            <div class="form-group">
+                <label asp-for="Employees.Lastname" class="control-label"></label>
+                <input asp-for="Employees.Lastname" class="form-control" />
+                <span asp-validation-for="Employees.Lastname" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Employees.Gender" class="control-label"></label>
+                <input asp-for="Employees.Gender" class="form-control"  placeholder="Cinsiyet"/>
+                <span asp-validation-for="Employees.Gender" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Employees.Salary" class="control-label"></label>
+                <input asp-for="Employees.Salary" class="form-control" />
+                <span asp-validation-for="Employees.Salary" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Manager Name</label>
+                <select name="Employees.ManagerId" class="form-control">
+                    @foreach (var item in Model.Managers)
+                    {
+                        @if (item.Id == Model.Employees.ManagerId)
+                        {
+                            <option selected name="Employees.ManagerId" style="color:red" value="@item.Id"> @item.Fullname</option>
+                        }
+
+                        else
+                        {
+                            <option name="Employees.ManagerId" value="@item.Id">  @item.Fullname</option>
+                        }
+                    }
+                </select>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Employees.IsManager" /> @Html.DisplayNameFor(model => model.Employees.IsManager)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="Employees.Street" class="control-label"></label>
+                <input asp-for="Employees.Street" class="form-control" />
+                <span asp-validation-for="Employees.Street" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Employees.Avenue" class="control-label"></label>
+                <input asp-for="Employees.Avenue" class="form-control" />
+                <span asp-validation-for="Employees.Avenue" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>County Name</label>
+                <select name="Employees.CountyId" class="form-control">
+
+                    @foreach (var item in Model.Counties)
+                    {
+                        @if (item.Id == Model.Employees.CountyId)
+                        {
+                            <option selected name="Employees.CountyId" style="color:red" value="@item.Id">@item.CountyName</option>
+                        }
+
+                        else
+                        {
+                            <option name="Employees.CountyId" value="@item.Id">@item.CountyName</option>
+                        }
+                    }
+
+                </select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Employees.OutDoorNumber" class="control-label"></label>
+                <input asp-for="Employees.OutDoorNumber" class="form-control" />
+                <span asp-validation-for="Employees.OutDoorNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Employees.PhoneNumber" class="control-label"></label>
+                <input asp-for="Employees.PhoneNumber" class="form-control" />
+                <span asp-validation-for="Employees.PhoneNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Employees.DateOfBirth" class="control-label"></label>
+                <input asp-for="Employees.DateOfBirth" class="form-control" />
+                <span asp-validation-for="Employees.DateOfBirth" class="text-danger"></span>
+            </div>
+            @*<div class="form-group">
+                    <label asp-for="Employees.CreateDate" class="control-label"></label>
+                    <input asp-for="Employees.CreateDate" class="form-control" />
+                    <span asp-validation-for="Employees.CreateDate" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Employees.LastUpdated" class="control-label"></label>
+                    <input asp-for="Employees.LastUpdated" class="form-control" />
+                    <span asp-validation-for="Employees.LastUpdated" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Employees.WhoUpdated" class="control-label"></label>
+                    <input asp-for="Employees.WhoUpdated" class="form-control" />
+                    <span asp-validation-for="Employees.WhoUpdated" class="text-danger"></span>
+                </div>*@
+            <div class="form-group">
+                <input type="submit" value="@Model.BtnVal" class="@Model.BtnClass" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="List">Employees List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

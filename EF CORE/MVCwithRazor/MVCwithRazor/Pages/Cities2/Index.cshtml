@@ -1,0 +1,43 @@
+﻿@page
+@model MVCwithRazor.Pages.Cities2.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.City[0].CityName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.City[0].Picture)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.City) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CityName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Picture)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.CityId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.CityId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.CityId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

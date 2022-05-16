@@ -1,0 +1,36 @@
+﻿@model IQueryable<KatmanliMimari.DTO.RoleSelect>
+@{
+    ViewData["Title"] = "List";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+
+<div class="row">
+    <div class="col-md-7">
+        <h1>Role List</h1>
+        <a href="/Role/Create" class="btn btn-primary ">New Role</a>
+        <hr />
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Role Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.Name</td>
+                         <td> <a href="/Role/Update/?id=@item.Id" class=" btn btn-success">Update</a>
+                             <a href="/Role/Delete/?id=@item.Id" class=" btn btn-danger">Delete</a></td>
+                      
+                       
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

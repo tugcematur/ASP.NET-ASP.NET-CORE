@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - AdvancedRepository</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">AdvancedRepository</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-white btn-outline-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+
+
+                        @*<li class="nav-item">
+            <a class="nav-link text-dark" href="/Categories/List">Categories</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link text-dark" href="/Cities/List">Cities</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" href="/Counties/List">Counties</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" href="/Customers/List">Customers</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" href="/Employees/List">Employees</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link text-dark" href="/Products/List">Products</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" href="/Suppliers/List">Suppliers</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" href="/Units/List">Units</a>
+        </li>*@
+
+
+
+                        @if (ViewBag.UserName == null)
+                        {
+
+
+
+                            <li class="nav-item ">
+                                <a class="nav-link btn-primary  btn-outline-success text-white " asp-area="" asp-controller="Auth" asp-action="Register">Register</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link btn-warning btn-outline-success text-white" asp-area="" asp-controller="Auth" asp-action="Login">Login</a>
+                            </li>
+
+
+
+
+                        }
+
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="/FatDetail/List">FatDetail</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="/FatMaster/List">FatMaster</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white btn-outline-success" asp-area="" asp-controller="Auth" asp-action="Logout">Logout</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <p>@ViewBag.UserName</p>
+                            </li>
+                        }
+
+                        
+                        <li class="nav-item dropdown fa-solid fa-basket-shopping">
+                            <a class="btn btn-secondary  dropdown-toggle " href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-expanded="false">
+
+                                Sepet (@ViewBag.Count)
+                            </a>
+
+                            <ul class="dropdown-menu " aria-labelledby="dropdownMenuLink">
+
+
+                                <li class="nav-item btn-outline-success">
+                                    <a class="nav-link text-dark" href="/Basket/List">My Basket</a>
+                                </li>
+
+
+                            </ul>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2022 - AdvancedRepository - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://kit.fontawesome.com/88d7b0aac2.js" crossorigin="anonymous"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

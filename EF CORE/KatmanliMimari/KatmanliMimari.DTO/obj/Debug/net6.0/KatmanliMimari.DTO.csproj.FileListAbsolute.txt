@@ -1,0 +1,14 @@
+C:\301Sabah\15-EF CORE\KatmanliMimari\KatmanliMimari.DTO\bin\Debug\net6.0\KatmanliMimari.DTO.deps.json
+C:\301Sabah\15-EF CORE\KatmanliMimari\KatmanliMimari.DTO\bin\Debug\net6.0\KatmanliMimari.DTO.runtimeconfig.json
+C:\301Sabah\15-EF CORE\KatmanliMimari\KatmanliMimari.DTO\bin\Debug\net6.0\KatmanliMimari.DTO.dll
+C:\301Sabah\15-EF CORE\KatmanliMimari\KatmanliMimari.DTO\bin\Debug\net6.0\KatmanliMimari.DTO.pdb
+C:\301Sabah\15-EF CORE\KatmanliMimari\KatmanliMimari.DTO\obj\Debug\net6.0\KatmanliMimari.DTO.csproj.AssemblyReference.cache
+C:\301Sabah\15-EF CORE\KatmanliMimari\KatmanliMimari.DTO\obj\Debug\net6.0\KatmanliMimari.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\301Sabah\15-EF CORE\KatmanliMimari\KatmanliMimari.DTO\obj\Debug\net6.0\KatmanliMimari.DTO.AssemblyInfoInputs.cache
+C:\301Sabah\15-EF CORE\KatmanliMimari\KatmanliMimari.DTO\obj\Debug\net6.0\KatmanliMimari.DTO.AssemblyInfo.cs
+C:\301Sabah\15-EF CORE\KatmanliMimari\KatmanliMimari.DTO\obj\Debug\net6.0\KatmanliMimari.DTO.csproj.CoreCompileInputs.cache
+C:\301Sabah\15-EF CORE\KatmanliMimari\KatmanliMimari.DTO\obj\Debug\net6.0\KatmanliMimari.DTO.dll
+C:\301Sabah\15-EF CORE\KatmanliMimari\KatmanliMimari.DTO\obj\Debug\net6.0\refint\KatmanliMimari.DTO.dll
+C:\301Sabah\15-EF CORE\KatmanliMimari\KatmanliMimari.DTO\obj\Debug\net6.0\KatmanliMimari.DTO.pdb
+C:\301Sabah\15-EF CORE\KatmanliMimari\KatmanliMimari.DTO\obj\Debug\net6.0\KatmanliMimari.DTO.genruntimeconfig.cache
+C:\301Sabah\15-EF CORE\KatmanliMimari\KatmanliMimari.DTO\obj\Debug\net6.0\ref\KatmanliMimari.DTO.dll

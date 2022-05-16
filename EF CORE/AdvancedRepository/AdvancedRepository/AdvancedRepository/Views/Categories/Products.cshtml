@@ -1,0 +1,95 @@
+﻿@model  IEnumerable<AdvancedRepository.Models.Classes.Products>
+    @*IEnumerable<AdvancedRepository.DTOs.ProductsList>*@ 
+
+    @{
+        ViewData["Title"] = "Products";
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+
+    <h1>Products</h1>
+
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Id
+                </th>
+                <th>
+                    Product Name
+                </th>
+                <th>
+                    Category Name
+                </th>
+                @*<th>
+                    Company Name
+                </th>*@
+                @*<th>
+                        @Html.DisplayNameFor(model => model.UnitPrice)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Stock)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.ProductionDate)
+                    </th>
+
+                    <th>
+                        @Html.DisplayNameFor(model => model.Unit)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.CreateDate)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.LastUpdated)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.WhoUpdated)
+                    </th>*@
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @item.Id
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ProductName)
+                    </td>
+
+                    <td>
+                        @item.Categories.CategoryName
+                    </td>
+                    @*<td>
+                        @item.CompanyName
+                    </td>*@
+                    @*<td>
+                            @Html.DisplayFor(modelItem => item.UnitPrice)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Stock)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ProductionDate)
+                        </td>
+                        x
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Unit.Id)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CreateDate)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.LastUpdated)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.WhoUpdated)
+                        </td>*@
+
+                </tr>
+            }
+        </tbody>
+    </table>

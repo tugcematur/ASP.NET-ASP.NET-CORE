@@ -1,0 +1,41 @@
+﻿@model List<KatmanliMimari.Dal.Users.AspNetUser>
+@{
+    ViewData["Title"] = "List";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-7">
+        <h1>User List</h1>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>User Name</th>
+                    <th>Role</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.UserName</td>
+
+                        @foreach (var x in item.Roles)
+                        {
+                            string roles = "";
+                            roles += x.Name + "";
+                            <td>@roles</td>
+                        }
+                        
+
+                        <td><a href="/User/Update/?id=@item.Id" class="btn btn-success">Update</a></td>
+                        <td><a   href="/User/AddRole/?id=@item.Id" class="btn btn-primary "  >Add Role</a></td>
+                        
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

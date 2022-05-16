@@ -1,0 +1,65 @@
+﻿@model OgrenciProjeCodeFirst.Models.ViewModels.StudentModel
+@{
+    ViewBag.Title = "Crud";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-7">
+        <h2>@Model.Baslik</h2>
+
+        <form method="post">
+            
+            <div class="form-group">
+                <label>Student Id</label>
+                <input type="@Model.InputType" value="@Model.Student.Id" name="Student.Id" class="form-control" readonly />
+            </div>
+
+            <div class="form-group">
+                <label> Name</label>
+                <input type="text" value="@Model.Student.Name" name="Student.Name" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label>Surname</label>
+                <input type="text" value="@Model.Student.Surname" name="Student.Surname" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label>Mother Name</label>
+                <input type="text" value="@Model.Student.MotherName" name="Student.MotherName" class="form-control" />
+            </div>
+
+
+                <label>City</label>
+
+                <select name="Student.CityId" class="form-control">
+
+                    @foreach (var item in Model.CityList)
+                    {
+                        if (item.CityId == Model.Student.CityId)
+                        {
+                            <option selected name="Student.CityId" style="color:red" value="@item.CityId">
+                                @item.CityName
+                            </option>
+                        }
+                        else
+                        {
+                            <option name="Studen.CityId" value="@item.CityId">
+                                @item.CityName
+                            </option>
+                        }
+
+
+                    }
+
+                </select>
+          
+            <input type="submit" class="@Model.BtnClass" value="@Model.BtnVal" />
+            <a href="/Student/List" class="btn btn-danger">İptal</a>
+
+        </form>
+
+    </div>
+</div>
+

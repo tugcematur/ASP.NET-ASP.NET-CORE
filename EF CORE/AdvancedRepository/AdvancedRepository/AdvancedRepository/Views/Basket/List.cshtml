@@ -1,0 +1,43 @@
+﻿@model List<AdvancedRepository.DTOs.Basket>
+@{
+    ViewData["Title"] = "List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-5">
+        <h4>Basket</h4>
+        <a href="/Basket/Add" class="btn btn-primary">Add Product</a>
+        <table class="table">
+
+            <thead>
+
+                <tr>
+
+                    <th>Id</th>
+                    <th>Product Name</th>
+                    <th>Amount</th>
+                    <th>Unit Price</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.ProductName</td>
+                        <td>@item.Amount</td>
+                        <td>@item.UnitPrice</td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+
+
+

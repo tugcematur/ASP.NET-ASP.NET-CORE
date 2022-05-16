@@ -1,0 +1,14 @@
+﻿@model AdvancedRepository.Models.ViewModels.LoginModel
+<form method="post">
+    <div class="mb-3">
+        <label asp-for="UserName" class="form-label">User Name</label>
+        <input type="email" class="form-control" asp-for="UserName"  aria-describedby="emailHelp">
+   
+    </div>
+    <div class="mb-3">
+        <label asp-for="Password" class="form-label">Password</label>
+        <input type="password" class="form-control" asp-for="Password">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

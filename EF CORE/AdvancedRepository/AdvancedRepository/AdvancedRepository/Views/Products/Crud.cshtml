@@ -1,0 +1,124 @@
+﻿@model AdvancedRepository.Models.ViewModels.ProductsModel
+
+@{
+    ViewData["Title"] = "Crud";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <h4>@Model.Header</h4>
+            <div class="form-group" hidden>
+                <input asp-for="Products.Id" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Products.ProductName" class="control-label"></label>
+                <input asp-for="Products.ProductName" class="form-control" />
+                <span asp-validation-for="Products.ProductName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Products.UnitPrice" class="control-label"></label>
+                <input asp-for="Products.UnitPrice" class="form-control" />
+                <span asp-validation-for="Products.UnitPrice" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label name="Products.UnitId" class="control-label">Unit Name</label>
+                <select name="Products.UnitId" class="form-control">
+                    @foreach (var item in Model.Unitlist)
+                    {
+                        @if (item.Id == Model.Products.UnitId)
+                        {
+                            <option selected name="Products.UnitId" style="color:red" value="@item.Id"> @item.UnitName</option>
+                        }
+
+                        else
+                        {
+                            <option name="Products.UnitId" value="@item.Id"> @item.UnitName</option>
+                        }
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Products.Stock" class="control-label"></label>
+                <input asp-for="Products.Stock" class="form-control" />
+                <span asp-validation-for="Products.Stock" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label name="Products.CategoryId" class="control-label">Category Name</label>
+                <select name="Products.CategoryId" class="form-control">
+                    @foreach (var item in Model.CatList)
+                    {@if (item.Id == Model.Products.CategoryId)
+                        {
+                            <option selected name="Products.CategoryId" style="color:red" value="@item.Id">@item.CategoryName</option>
+                        }
+                        else
+                        {
+                            <option name="Products.CategoryId" value="@item.Id">@item.CategoryName</option>
+                        }
+
+                }
+                </select>
+            </div>
+            <div class="form-group">
+                <label name="Products.SupplierId" class="control-label">Supplier Name</label>
+                <select name="Products.SupplierId" class="form-control">
+                    @foreach (var item in Model.SuppList)
+                    {
+                        @if (item.Id == Model.Products.SupplierId)
+                        {
+                            <option selected name="Products.SupplierId" style="color:red" value="@item.Id"> @item.CompanyName</option>
+                        }
+
+                        else
+                        {
+                            <option name="Products.SupplierId" value="@item.Id"> @item.CompanyName</option>
+                        }
+                    }
+                </select>
+            </div>
+
+
+            <div class="form-group">
+                <label asp-for="Products.EmployeeId" class="control-label"></label>
+                <input asp-for="Products.EmployeeId" class="form-control" />
+                <span asp-validation-for="Products.EmployeeId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Products.ProductionDate" class="control-label">Production Date</label>
+                <input asp-for="Products.ProductionDate" class="form-control" />
+                <span asp-validation-for="Products.ProductionDate" class="text-danger"></span>
+            </div>
+            @*<div class="form-group">
+            <label asp-for="Products.CreateDate" class="control-label"></label>
+            <input asp-for="Products.CreateDate" class="form-control" />
+            <span asp-validation-for="Products.CreateDate" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Products.LastUpdated" class="control-label"></label>
+            <input asp-for="Products.LastUpdated" class="form-control" />
+            <span asp-validation-for="Products.LastUpdated" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Products.WhoUpdated" class="control-label"></label>
+            <input asp-for="Products.WhoUpdated" class="form-control" />
+            <span asp-validation-for="Products.WhoUpdated" class="text-danger"></span>
+        </div>*@
+            <div class="form-group">
+                <input type="submit" value="@Model.BtnVal" class="@Model.BtnClass" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="List">Listeye Geri Gön</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

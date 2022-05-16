@@ -1,0 +1,120 @@
+﻿@model AdvancedRepository.Models.ViewModels.FatDetailModel
+@{
+	ViewData["Title"] = "Create";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Fatura Bilgileri </h3>
+<hr />
+<div class="form-group">
+	<label> Fatura No</label>
+	<input type="text" name="FatMaster.Id" value="@Model.FatMaster.Id" readonly />
+</div>
+
+<div class="form-group">
+	<label>Fatura Tarih</label>
+	<input type="text" name="FatMaster.Date" value="@Model.FatMaster.Date" readonly />
+</div>
+<div class="form-group">
+	<label>Company</label>
+	@foreach (var item in Model.Customers)
+	{
+		@if (item.Id == Model.FatMaster.CustomerId)
+		{
+
+			<input type="text" name="FatDetail.CustomerId" value="@item.CompanyName" readonly /> @*CompanyName i getiremedik*@
+		}
+	}
+
+
+</div>
+
+
+<table class="table table-bordered">
+	<thead>
+		<tr>
+			<th>Fatura No</th>
+			<th>Ürün No</th>
+			<th>Ürün Adı </th>
+			<th>Birim Fiyat</th>
+			<th>Miktar</th>
+			<th>Tutar</th>
+			<th>Image</th>
+			<th>Update</th>
+			<th>Delete</th>
+		
+			
+		</tr>
+	</thead>
+	<tbody>
+
+	
+
+
+		@foreach (var item in Model.FatDetailList)
+		{
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.ProductId</td>
+            <td>@item.ProductName</td>
+            <td>@item.UnitPrice</td>
+            <td>@item.Amount</td>
+            <td>@item.Total</td>
+            <td> <img width="200" height="200" src="@item.ProductImage" /> </td>
+
+
+            <!--<td><a class="btn btn-primary" href="/FatDetail/Update/@item.Id/?pid=@item.ProductId&x=3">Update</a></td>-->    @*Query String->birden fazla id göndermenin yolu*@
+            <td><a class="btn btn-success" href="/FatDetail/Update/?id=@item.Id&pid=@item.ProductId">Update</a></td>    @*2.Yol*@
+			<td><a class="btn btn-danger" href="/FatDetail/Delete/?id=@item.Id&pid=@item.ProductId">Delete</a></td>
+        </tr>
+		}
+
+	</tbody>
+</table>
+
+<hr />
+<h3>@Model.Total</h3>
+<hr />
+
+@*FaturaDetail a ait bilgiler  form içinde tanımlanacak*@
+
+<form method="post">
+
+	<div class="form-group">
+		<label>Products</label>
+		<select asp-for="FatDetail.ProductId" class="form-control">
+			@foreach (var item in Model.Products)
+			{
+				<option value="@item.Id">
+					@item.ProductName
+				</option>
+			}
+
+		</select>
+	</div>
+
+
+	<div class="form-group">
+		<label>Amount</label>
+		<input type="text" asp-for="FatDetail.Amount" class="form-control" />
+
+	</div>
+
+
+	<div class="form-group">
+		<label>Unit Price</label>
+
+		<input type="text" asp-for="FatDetail.UnitPrice" class="form-control" />
+
+
+	</div>
+
+	<input type="submit" value="Kaydet" class="btn btn-primary" />
+</form>
+
+
+
+
+
+
+

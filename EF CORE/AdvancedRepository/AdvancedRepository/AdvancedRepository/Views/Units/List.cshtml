@@ -1,0 +1,56 @@
+﻿@model IEnumerable<AdvancedRepository.Models.Classes.Units>
+
+@{
+    ViewData["Title"] = "List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Units Listesi</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Yeni Kayıt</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>
+                @Html.DisplayNameFor(model => model.UnitName)
+            </th>
+            @*<th>
+                @Html.DisplayNameFor(model => model.CreateDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastUpdated)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.WhoUpdated)
+            </th>*@
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>@item.Id</td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UnitName)
+            </td>
+            @*<td>
+                @Html.DisplayFor(modelItem => item.CreateDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastUpdated)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WhoUpdated)
+            </td>*@
+        <td>
+            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-success">Edit</a>
+            <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info">Details</a>
+            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+        </td>
+        </tr>
+}
+    </tbody>
+</table>

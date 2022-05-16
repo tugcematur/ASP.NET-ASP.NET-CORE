@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h4>Admin Page</h4>
+
+<div class="text-center">
+    @if (ViewBag.UserName != null)
+    {
+        <h3 class="display-4">Welcome @ViewBag.UserName</h3>
+    }
+
+</div>

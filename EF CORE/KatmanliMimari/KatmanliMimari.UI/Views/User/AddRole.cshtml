@@ -1,0 +1,32 @@
+﻿@model KatmanliMimari.UI.Models.AspNetUserModel
+@{
+    ViewData["Title"] = "AddRole";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+<div class="row">
+    <div class="col-md-7">
+        <h1>User List</h1>
+       <form method="post">
+           <label> User Id</label>
+           <input type="text" asp-for="Id" class="form-control"/>
+
+           <label>Roles</label>
+           <select name="AspNetUser.RoleId" class="form-select">
+            
+               @foreach (var item in Model.RoleList)
+               {
+                   
+               <option name="AspNetUser.RoleId" value="@item.Id"> 
+                   @item.Name
+               </option>
+               } 
+
+           </select>
+
+
+       </form>
+    </div>
+</div>
+

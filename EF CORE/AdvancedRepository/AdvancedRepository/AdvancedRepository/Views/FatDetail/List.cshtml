@@ -1,0 +1,58 @@
+﻿@model IEnumerable<AdvancedRepository.Models.Classes.FatDetail>
+
+@{
+    ViewData["Title"] = "List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>FatDetail List</h1>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+
+            <th>
+                Product Id
+            </th>
+            <th>Product Name</th>
+            <th>
+                UnitPrice
+            </th>
+            <th>
+                Amount
+            </th>
+
+
+
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>@item.Id</td>
+
+            <td>
+                @item.ProductId
+            </td>
+            <td>@item.Product.ProductName</td>
+            <td>
+                @item.UnitPrice
+            </td>
+            <td>
+                @item.Amount
+            </td>
+
+
+            @*<td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>*@
+        </tr>
+}
+    </tbody>
+</table>

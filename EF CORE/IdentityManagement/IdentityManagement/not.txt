@@ -1,0 +1,11 @@
+﻿core 6 da startup(Program içinde ) ve Context lendisi oluşturuyor , eklememize gerek yok
+
+https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-6.0&tabs=visual-studio
+
+
+
+1- Identity services 
+2-Scaffold Register, Login, LogOut, and RegisterConfirmation
+
+
+https://www.codegrepper.com/?gclid=CjwKCAiAvaGRBhBlEiwAiY-yMKHzNtQzJ0Anbm8x9dWjbwoj9XM2WpZ-GMENr3Aq9CVjTpI3uKK8_xoCNj8QAvD_BwE GREEPER 

@@ -1,0 +1,2 @@
+﻿dbo.EgitmenOgrenci bir ara tablodur , Composite key
+id ler otomatik oldu ? 

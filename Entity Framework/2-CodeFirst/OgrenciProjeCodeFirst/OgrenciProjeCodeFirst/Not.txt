@@ -1,0 +1,31 @@
+﻿MVc seçtik.
+Models altına Data klasörü açtık
+Data ya-> new Item -> ADO.Net-> Empty Code First Model
+Propeeties->settings->ConnectionString-> OgrenciDb varolmayan bir database oluşturuyoruz
+Webconfigte  name e Baglanti yazıyoruz
+
+OgrenciContext te gerekli şeyleri yaptık
+
+
+Tools-> nuget package ->console->...
+
+OgrenciDb sağ tıkla properties-> files -> sa yap (DB diagramdaki sorun için )
+
+
+
+ON DELETE CASCADE ve ON UPDATE CASCADE Nedir ve Nasıl Kullanılır
+
+
+Bu ifadeleri Foreing Key constaint’i ile beraber kullanabiliriz. Öncelikle Foreign Key’in ne olduğunu detaylı bir şekilde anlamak gerekir. “Primary Key ve Foreign Key” isimli makaleden faydalanabilirsiniz.
+
+ 
+
+“Primary Key ve Foreign Key” isimli makalede anlattığım gibi Foreing key tanımladıysanız, normal şartlar altında foreing key’in olduğu tablodaki kaydı silmeden, 
+primary tablodaki kaydı silemezsiniz. Silmek istediğiniz aşağıdaki gibi hata alırsınız.
+
+Ama foreing key’i oluşturuken aşağıdaki gibi sonuna ON DELETE CASCADE koymuş olsaydınız, primary tablodaki kaydı sildiğinizde foreign key’in tanımlı olduğu alt tablodaki kayıtları’da otomatik olarak silerdi. 
+Yukardaki hatayı almazdınız. Tabiki bu her zaman istenen bir davranış değildir. Bu yüzden default olarak bu şekilde bir davranış sergilenmez.
+
+
+Migrations->ilk.cs'inde  foreign key olan yerlerdeki ->  .ForeignKey("dbo.City", t => t.CityId, cascadeDelete: true) // false yap 
+

@@ -1,0 +1,58 @@
+﻿@model IEnumerable<AdvancedRepository.DTOs.ProductsList>
+
+@{
+    ViewData["Title"] = "List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Products List</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Yeni Kayıt</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Product Name
+            </th>
+            <th>
+                Company Name
+            </th>
+            <th>
+                Category Name
+            </th>
+            <th>
+                Product Image
+            </th>
+          
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>@item.Id</td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CompanyName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoryName)
+            </td>
+            <td>
+                <img width="200" height="200"  src="@item.ProductImage"/>
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-success">Edit</a> 
+                <a asp-action="Details" asp-route-id="@item.Id"class="btn btn-info">Details</a> 
+                <a asp-action="Delete" asp-route-id="@item.Id"class="btn btn-danger" >Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

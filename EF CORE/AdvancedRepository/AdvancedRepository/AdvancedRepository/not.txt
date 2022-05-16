@@ -1,0 +1,581 @@
+﻿HashSet & HashSet Performans Değerlendirmesi
+Bu makalemizde HashSet kullanımı ve HashSet performans değerlerine göz atacağız. HashSet<T> .Net 3.5 framework ile System.Collections.Generic namespace içinde  kullanıma sunulan koleksiyonlardan biridir. HashSet<T> için özellikle List Generic tip’ in gölgesinde kalmış, yazdığımız kodlarda nadiren kullanılan framework’ün istenmeyen koleksiyon tipi demek çok da yanlış olmaz. Durum bu şekilde olunca HashSet yeteneklerinin başka bir koleksiyon tip  ile sağlandığı kod bloklarının hali HashSet’ in egosunu epeyce kabartacak dereceye gelebiliyor. HashSet in özelliklerinden bahsedecek olursak
+
+Diğer koleksiyon tiplerinde olduğu gibi genişletilebilir kapasiteye sahiptir. Yeni öğe eklendiğinde veya silindiğinde otomatik olarak kapasitesinde değişik yapar.
+HashSet sıralı bir koleksiyon tipi değildir. Bu nedenle eklediğimiz nesnelerin ilk ,son veya herhangi eklenme index’leri konusunda garanti vermez. HashSet indexlemesini HashCode olarak yapmaktadır.
+HashSet tekrar eden nesne içermez. 1,3,1 değerlerini sırasıyla eklediğimizi varsayarsak işlem sonunda elimizde 1,3 değerleri olacaktır.Veri eklemek içn kulanılan Add metodu dönüş tipi olarak bool tipinde bir değer dönmektedir.
+HashSet içinde bir değeri aramak çok hızlıdır. Koleksiyonun en önemli tercih noktası da bu olmalıdır. Arama yaparken hash-based searching algorthm kullanır.
+
+İleri Repository oluşturuyoruz.Core->IBaseRepository
+
+
+NOT: Suppliers 'taProducer ı bool yap !!!!!!!!!
+
+BaseRepositoryden sonra ek bir Repository daha hazırlanacak.
+
+Repository klasörü oluşturduk.->Interfaces ve Classess
+
+IProductsRepository 'se Core da olmayıp Pruducts ta gerekli olan şeyler tanımlanacak.
+
+DTO klasörü oluşturduk.(Veri Aktarım Nesnesi )   https://tr.peterfeatherstone.com/905-how-to-use-data-transfer-objects-in-asp-net-core-3-1
+
+Veritabanına verileri girdik.(Back up ile veriler de gelir)
+
+
+Include()methodu:
+-----------------------------------------------------------------------
+Repository Pattern  -- Unit of work  https://enlear.academy/repository-pattern-and-unit-of-work-with-asp-net-core-web-api-6802e1aa4f78
+
+Startup ta her nesneyi tanımlıcaz!(new leyeceğimiz her şeyi)
+UnitOWork yerine yeni bir class oluşturursak 
+UnitOfWork2.cs 
+Startup ta   services.AddScoped<IUnitOfWork, UnitOfWork2>(); yazarız 
+Controllerda da    IUnitOfWork2 _uofWork; yazarız.
+
+
+Dispose() methodu(Memory şişer ve çalışmayabilir, performansı arttırır ,program hızlanır)
+---------------------------------
+Dispose metodunu hep kullanırım yanlız ne olduğunu bilmeden kullanırdım, bazen hata verir program ama nedense ne olduğunu hala öğrenme gereği duymazdım... 
+İnternetten bi kaç araştırma yaparak aşagıdaki söylemlere dahil oldum ve açıklaması sanırım böyle bişey olsa gerek.
+
+Bir nesne örnekleyip referans verdiğinizde, yani örneğin; Dim baglanti As New sqlconnection(baglanti_stringi) dediğinizde bir nesne örneklemiş ve ona referans
+vermiş oluyorsunuz... Zaten sqlconnection'un Close() metodu var,bu metot bağlantıyı kapatır. Dispose() metodunun farkı şudur;
+bu metot örneklediğiniz ve referans gösterdiğiniz nesneyi bellekten atar... Bellekten atmak ile kapatmak farklı şeylerdir,dikkatinizi çekerim... Bir nesneyi
+kapatsanız dahi o,bellekte kalır...Bellekten atılan bir şey ise ne kapatılabilir,ne de açılabilir...sqlconnection üzerinde Dispose()yaptıktan sonra
+open() veya close() metotlarından herhangi birini çağırırsanız program kırılacaktır...
+Normalde GAC (Garbage Collector) belirli aralıklarla bellekten artık hiçbiryere referansı olmayan nesneleri bulup onları yok eder (dispose). Sen dersen 
+ki bu objeyle işim bitti ve GAC i beklemeye gerek yok. Onu hemen çağırarak yok etmeni sağlar. Ancak burada nesneye referans veren herhangi başka bir nesnen var mı dikkat etmelisin yoksa hata verir.
+Fonksiyonlar dispose edilemezler. Dispose işlemi class tipi nesnelere uygulanabilir. Bunun nedeni Heap de yaratılıyor olmaları ve bellekte yer tutmalarıdır. 
+Fonksiyonlar ise işlemciyi ve belleği sadece çalıştıkları sürece meşgul ederler. Fonksiyonlardan çıkıldığında içlerinde tanımlanmış local değişkenler zaten dispose olur ve bellekten temizlenir.
+
+
+CTRl+ F4 açık sekmeleri teker teker kapatır veya close all tab
+
+Cities e göre Counties listeleme -> Javascript ile (React)
+isManager True olan için ManagerName Disabled yapıcaz veya kaldırıcaz
+
+<th> -> header cell
+<td> -> data cell
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ES6, ES7, ES8 Javascript’in çekirdeğini oluşturan ECMAScript in yeni versiyonlarının isimleridir.
+ECMAScript bir yazılım dili standardıdır. JavaScript ise bu standartların uygulanmış olduğu en popüler programlama dilidir. 
+****************************************************************************************************************
+ES6 (2015)
+Arrows
+Arrow fonksiyonlar mutlaka geriye bir değer döndürmelidir. Arrow fonksiyonlarda normal fonksiyonların aksine bulundukları scope daki this kodunu kullanabilirsiniz.
+
+map ile kullanım örneği;
+var odds = evens.map(v => v + 1);
+
+forEach ile kullanım örneği;
+nums.forEach(v => {
+  if (v % 5 === 0)
+    fives.push(v);
+});
+***************************************************************************************************************
+Classes
+Object oriented class desteği.
+
+class SkinnedMesh extends THREE.Mesh {
+  constructor(props) {
+    super(props);
+    //...
+  }
+  update() {
+    //...
+  }
+  get articleCount() {
+    //...
+  }
+  set articleType(articleType) {
+    //...
+  }
+  static defaultArticle() {
+    //...
+  }
+}
+
+***************************************************************************************************************
+Template Strings
+Template enginlerinde olduğu gibi string içerisine değişken paslama işlemi.
+
+
+const name = "Bob", time = "today";
+`Hello ${name}, how are you ${time}?`
+
+
+***************************************************************************************************************
+Object Destructuring(Şekini Bozma)
+React app geliştirirken Eslint airbnb preset zorlaması ile alıştığım bir özellik.
+
+
+// Object Destructuring
+const {op, lhs, rhs} = this.props;
+// Normal
+const op = this.props.op;
+const lhs = this.props.lhs;
+const rhs= this.props.rhs;
+
+***************************************************************************************************************
+Let ve Const
+Javascript’te değişken tanımlarken kullanılan var yerine getirilmiş iki özellik let ile
+oluşturulan değişkenler sonradan değişebilir ken const ile oluşturulan değişkenlerin 2. bir değer ataması yapılmaması üzerine kurgulanmıştır.
+
+const x = "değişmez.";
+let y = "değişebilir.";               //let sadece kendi scope unda geçerlidir. var global tanımlabilir.
+
+***************************************************************************************************************
+Modules
+JavaScript module yükleyicileri kod kalıpları (AMD, CommonJS).
+
+// lib/math.js
+export function sum(x, y) {
+  return x + y;
+}
+export var pi = 3.141593;
+// otherApp.js
+import {sum, pi} from "lib/math";
+alert("2π = " + sum(pi, pi));
+// app.js
+import * as math from "lib/math";
+alert("2π = " + math.sum(math.pi, math.pi));
+
+***************************************************************************************************************
+Promises
+Eşzamanlı olmayan programlama ile bir işlemin bitip diğerinin başlaması sağlanır. 
+Normal javascript’te olduğu gibi diğer kodların çalıştırılması için bu işlemlerin bitmesi beklenmez.
+
+function timeout(duration = 0) {
+    return new Promise((resolve, reject) => {
+        setTimeout(resolve, duration);
+    })
+}
+
+var p = timeout(1000).then(() => {
+    return timeout(2000);
+}).then(() => {
+    throw new Error("hmm");
+}).catch(err => {
+    return Promise.all([timeout(100), timeout(200)]);
+})
+
+
+***************************************************************************************************************
+Spread syntax
+Array içindeki elemanların hepsini yanyana dışarıya akarmak olarak söylenebilir.
+var arr = [2, 4, 8, 6, 0];
+var max = Math.max(…arr);
+// max will be 8
+
+
+
+
+ES7 (2016)
+2015'ten itibaren ECMAScript her sene düzenli olarak yeni versiyon çıkarmaya karar verdiklerinden dolayı ES7'de ES6'da olduğu kadar çok özellik bulunmamakta.
+***************************************************************************************************************
+ES8 (2017)
+Async functions
+Fonksiyonların artık asenkron çalışabiliyorlar. async fonksiyonların içinde mutlaka await bulunması gerekiyor.
+async function fetchJson(url) {
+    try {
+        let request = await fetch(url);
+        let text = await request.text();
+        return JSON.parse(text);
+    }
+    catch (error) {
+        console.log(`ERROR: ${error.stack}`);
+    }
+}
+_________________________________________________________________________________________________________________________________________________________________________
+
+ARROW FUNCTION
+
+Javascript'te normal bir fonksiyon şöyle tanımlanmaktadır;
+
+<script>
+function ad() {
+	// fonksiyon çalışınca yapılmasını istenen
+	// işlemler
+} 
+</script>
+Arrow Fonksiyonlar ise şu şekilde tanımlanır;
+
+<script>
+merhaba = () => {
+  return "Merhaba Dünya!";
+} 
+console.log(merhaba())
+</script>
+Eğer fonksiyon içinde tek bir satırda return veya başka bir işlem yapıyorsanız süslü parantezleri kaldırarak tek satırda kullanabiliriz.
+
+<script>
+kodlamaklazim = () => "Merhaba Kodlamaklazim";
+console.log(kodlamaklazim())
+</script>  
+Bakın kullanımı ne kadar da kolay değil mi ? :) Unutmayın bu işlem sadece tek satırlık bir işlem varsa kullanılabilir.
+
+Eğer parametre ile kullanmak istiyorsanız, parametrelerinizi parantez içinde bildirebilirsiniz.
+
+<script>
+hosgeldin = (zafer) => "Hoşgeldin:"+zafer;
+console.log(hosgeldin("Zafer"));
+// Çıktı : Hoşgeldin: Zafer
+</script>
+Eğer tek bir parametreniz varsa parametreyi parantez içinde yazmanıza gerek kalmaz.
+
+<script>
+hosgeldin = zafer => "Hoşgeldin:"+zafer;
+console.log(hosgeldin("Zafer"));
+//çıktı: Hoşgeldin: Zafer
+</script>
+Arrow function'lar geldi diye normal fonksiyonları kullanamayacağımız anlamına gelmiyor tabii ki. Arrow fonksiyonlar normal fonksiyonlara alternatif olarak geliştirilmiştir.
+
+_________________________________________________________________________________________________________________________________________________________________________
+
+EXPRESSİON BODIED FUNCTIONS AND PROPERTIES
+Bu yazımızda sınıf elemanlarından olan metod ve property yapılarının Lambda ifadeleriyle nasıl oluşturabileceğimizi inceleyeceğiz.
+
+
+public void IsimYaz()
+{
+    Console.Write("Gençay Yıldız");
+}
+
+Gördüğünüz gibi bu tarz basit bir işleve sahip metodu oluşturabilmek için metodun imzasıyla beraber gövdesi oldukça uzun bir yapı sergilemektedir.
+Halbuki işlev olarak çok çook basit olan bu metodu C# 6.0 ile aşağıdaki gibide oluşturmamız mümkündür.
+
+
+public void IsimYaz() => Console.Write("Gençay Yıldız");
+
+
+
+Peki geri dönüş değerine sahip bir metodu nasıl Lambda ifadesiyle oluşturabiliriz? sorusunu sorabilirsiniz.
+Aşağıdaki kod bloğunu inceleyin…
+
+
+--- Normal Yazım ---
+        public string IsimGonder()
+        {
+            return "Gençay Yıldız";
+        }
+
+public string IsimGonder() => "Gençay Yıldız";
+veyahut int bir değer gönderen metodsa;
+
+
+public int YasiGonder() => 23;
+
+
+Metodumuz geriye değer gönderecekse eğer => ifadesinden sonra o değere ait bir veri girmeniz yeterli olacaktır.
+
+
+
+
+
+public string Cinsiyet { get; }
+veya
+
+
+
+public string Cinsiyet
+{
+    get
+    {
+        return "Erkek";
+    }
+}
+şeklinde tanımlayabileceğimiz propertylerimizi aşağıdaki gibi Lambda ifadesiyle tanımlayabilir ve ilk değeri verebiliriz.
+
+
+public string Cinsiyet => "Erkek";
+
+
+
+NOT :   Örnekte verilen  property yapıları sadece okunabilir(read only) özelliğine sahiptirler.Bu demek oluyor ki, Lambda ifadesini read only özelliğine sahip olmayan propertylerde kullanamayız.
+
+______________________________________________________________________________________________________________________________________
+Composite Key (Birleşik Anahtar) Nedir
+
+
+Veri tabanında tablo oluştururken, tablodaki kayıtların benzersiz olması için her tabloya genellikle bir tane birincil anahtar yerleştiririz.
+
+Ancak bazı durumlarda 1 tane birincil anahtar tek başına istediğimiz şekilde tablodaki sorunları çözmek için yeterli olmayabilir. Birden fazla alanın birlikte birincil olması gerektiği durumlarda birincil anahtar olarak ayarlaması gerekir. Bu duruma composite key adı verilir.
+
+Daha kısa açıklama olarak da birden fazla birincil anahtar kullanılması durumuna composite key denir. İki yada daha fazla olan birincil anahtarlar tek başına bir birincil anahtar gibi davranıyor.
+
+
+
+Fatura Migrationanınnda //Cascade i NoAction yap FatDetail ve FatMaster için
+
+
+  protected  void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            
+
+            modelBuilder.Entity<FatDetail>().HasKey(p => new { p.Id, p.ProductId });
+         }
+
+
+         ekledik Fatura Migarationna
+
+
+
+         Veritabanını sil en baştan yap, istersen bütün değişiklerden sonra bir tane Miration oluşturup  bir kez Update-Database yapabilirsin
+
+
+
+
+
+         Soft Delete de ekle Base 'den class döndürdüğümüz için metotların içinde deleted ları kulllanıcaz.
+
+
+          IEnumerable   VS   IQueryable
+***********************************************************
+
+**  IEnumerable tipi veriyi önce belleğe atıp ardından bellekteki bu veri üzerinden belirtilen koşulları çalıştırır ve veriye uygular.
+IQueryable tipinde ise belirtilen sorgular direk olarak server üzerinde çalıştırılır ve dönüş sağlar. Ayrıca bu tip IEnumerable tipini implement ettiği için 
+IEnumerable’ın tüm özelliklerini kullanabilir.
+
+**  Aslında açıklamalara bakacak olursak ikisi arasındaki farkı çok rahat görebiliriz. IQueryable bize database vb. veri depolarında yapılan sorgulamalar da işlevsellik sağlarken, 
+IEnumerable ise bize bir koleksiyon üzerinde sorgulama yapmak için olanak sağlar.
+
+
+ÖRNEK :Gerçek hayat kullanımına dair bir örnek üzerinden ilerlersek elimizde çok büyük bir kayır olduğunu düşünelim.
+Örnek veriyorum 1 milyon kaydımız var ve 
+biz burada bir sorgu yapmak istiyoruz. Şart olarak ise PaymentStatus=true verdiğimizi düşünelim.
+IEnumerable mantığı üzerinden gidersek 1 milyon veri öncelikle belleğe alır ve ardından sorgumuzu uygular.
+Biraz daha açacak olursak bellek öncelikle IEnumerable için yer açıyor ve datayı buraya alıyor. Daha sonra şartımız where komutu ile burada sorgulanıyor.
+
+
+IQueryable ise öncelikle belirtiğimiz koşula göre bir sorgu uygulayıp bunula database’e gidiyor gerekli verileri aldıktan sonra bize dönüş sağlıyor.
+
+
+Faturayı Güncellicez
+
+ÖDEV
+1- List' e Customers ı getir
+2- FatDEtail da Create de ProductName i ve ProductImage ı  getir
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The ALTER TABLE statement conflicted with the FOREIGN KEY constraint "FK_Products_Employees_EmployeeId". The conflict occurred in database "Company", table "dbo.Employees", column 'Id'.
+Bu almanızın sebebi ilişki kurulmak istenen tablolarda kayıtların bulunması ile ilgilidir. Her iki tabloda ki kayıtları boşaltırsanız hata giderilecektir..
+
+
+SESSİON
+
+Bir uygulama içinde istenen bilgileri belirlediğimiz kriterlerle (süre vb.) 
+anlık olarak tutmaya (set) ve bu bilgileri gerektiğinde çağırıp (get) kullanma işine yarar. 
+Cookie den en temel farkı ise Session server tarafında Cookie client yani uygulamaya ulaşan kişinin bilgisayarında tutulur.
+
+ Not:  Soft Delete de ekle Base 'den class döndürdüğümüz için metotların içinde deleted ları kulllanıcaz.
+
+
+IEnumerable ve IQueryable arasındaki temel fark, 
+
+IEnumerable tüm verileri alıp memory de tutarak, sorgulama işlemlerini memory üzerinden yaparken IQueryable ise şartlara bağlı
+ query oluşturarak doğrudan veritabanı üzerinden sorgulama işlemi yapar. Eğer milyonlarca kayıt üzerinde sorgulama işlemi yapıyorsak elbette IQueryable IEnumerable göre daha hızlı sorgulama işlemi yapar.
+IEnumerable hafızadaki koleksiyonlar için idealdir.
+IQueryable hafıza dışındaki (veritabanı, servis vs.) koleksiyonlar için idealdir.
+IQueryable fazladan CreateQuery ve Execute yöntemlerine sahiptir. Bu şekilde doğrudan özel sorguları yazıp çalıştırabiliriz. 
+IEnumerable bunu desteklemez.
+
+
+LINQ sorgusu konusunu incelediğimde LINQ sorgularının döndürdüğü 2 temel liste tipinden bahsediliyor.
+
+Birisi IEnumerable, diğeri IQueryable.
+
+Bu ikisi arasında ne fark var? Hangisini ne zaman kullanmalı?
+
+
+IEnumerable LINQ for Objects için, yani hafızadaki List , dizi vs. sorgulaması sonucunda elde edilecek değerler için kullanılıyor. IEnumerable bellekteti veya belleğe aldığı veriler üzerinden seçim yapar. System.Collections isim alanında yer alır.
+
+IQueryable ise LINQ for Database için yani veritabanından sorgulanan değerler için kullanılıyor. Bu eğer veritabanı bağlantısı varsa veritabanı üzerinde SQL sorgusu yaparak değerleri seçiyor. Tabi eğer hedef veritabanı ise. IQueryable  System.Linq isim alanında yer alır.
+
+IEnumerable ile veritabanı bağlantısı olan bir nesne üzerinden sorgu isterseniz tüm liste hafızaya alınacak ve daha sonra bu liste üzerinden filtrelerinize göre seçme işlemi yapılacaktır.
+
+IQueryable ile LINQ sorgusu yapıldığında ise  veritabanı üzerinde çalıştırılacak sorguda tüm filtreler yer alalacak ve sadece istenen kayıtlar yüklenecektir.
+
+
+__________________________________________________________________________________________
+
+Basedeki Query kullanmasak listenin ve metodunun tipğini IQueryable yapmamız yeterli olur. metotu ToList() yapmamıza gerek yok.
+
+
+ENCYRIPTION
+
+https://jasonwatmore.com/post/2020/07/16/aspnet-core-3-hash-and-verify-passwords-with-bcrypt
+
+Visual Studio Package Manager Console: Install-Package BCrypt.Net-Next yükle
+
+Tablo ekledikten sonra DbSet i ni Context in içinde tanımla sonra Migration ekle ve database i güncelle
+
+AuthReposta  SirketContex _ db vs. tanımlaması yapmıyoruz , çünkü baseden miras almmıyor(sebebi -> Dalgınlıkla encrypte etmedfen şifre kullanılabilir)
+
+aria-describedby="emailHelp" -> ????
+
+
+  services.AddScoped<Users>(); user ı newlemek için startUp ta tanımladık
+
+
+
+  not: Virtual - overridea gözat ve @ViewBag Kullanımı
+  ______________________________________________________________________________________________________________________________________
+
+  SESSION
+
+
+Session aslında bir tür "Cookie" türüdür. 
+Cookies altında dallar ve bu dallardan biri de "Session Cookies" olarak sınıflandırılmıştır. 
+Burada bizim bilmemiz gereken asıl olay geçici çerezlerin aslında "Session Cookies" ve bizim bildiğimiz kalıcı çerezlerin de
+"Persistent Cookies (Kalıcı Çerez)" olduğunu bilmemiz gerekiyor.
+    Cookie'ler (çerezler) bir web sayfasını ziyaret ettiğiniz zaman server tarafından gönderilen ve tarayıcıya kaydedilen 4KB'lık dosyalardır. Tam açıklamadan önce
+    Cookie'lerin nasıl çalıştığı hakkında ufak bir bilgi verelim.
+Cookie'lerin genel amacı siteye ziyaret esnasında server tarafından tarayıcınıza gönderilen verilerdir. Hem kalıcı hem de geçici olmak üzere birden fazla türü vardır.
+    Cookie'ler "HTTP Header" alanlarında gönderilir. HTTP Header iki türden oluşur. HTTP Request ve HTTP Response. Çalışma mantığı; siz bir siteye girdiğiniz zaman, kullanıcı, 
+    server'dan siteyi getirmesi için bir istek atar (HTTP Request). Server da buna karşılık olarak kullanıcının isteğini kabul eder ve siteyi gönderir (HTTP Response). Bu sırada
+    server tarayıcınıza bir metin dosyası bırakır. İşte bu Cookie'ler sizi daha sonra aynı siteye yapacağınız bir ziyarette hatırlanmanızı ve girdiğiniz kullanıcı adı, şifre gibi 
+    bilgileri hatırlayarak bir daha sormayacağı anlamına gelir. En basit örnek olarak bir e-ticaret sitesi düşünelim. Kayıt oldunuz, giriş yaptınız, ürünü aldınız ve siteyi terk ettiniz. 
+    Eğer siz belli bir süre sonra yine siteye gittiğiniz zaman kullanıcı adınızın yazıldığını göreceksiniz.
+    Eğer şifrenizi hatırlamasını istediyseniz zaten direk giriş yapacaktır. İşte Cookie'lerin amacı sizi tanıyarak tekrardan siz siteye ziyaret ettiğiniz zaman sizi tanımasıdır.
+
+
+    Persistent Cookie Nasıl Çalışır?
+
+ 
+
+    Yukarıda ki görselde belirttiğimiz gibi Cookie'ler HTTP Header kısmında gönderilir. Kullanıcı bir siteye girerken server'a siteyi getirmesi için istekte bulunur. Bu işleme "HTTP Request" denir. İsteğimiz server'a ulaştıktan sonra eğer web sitesi tarayıcıya bir "Cookie" bırakmak istiyorsa
+    HTTP Response mesajı ile bize bunu yanıtlıyor. Çerezler HTTP Response ile Set-Cookie alanında tanımlanıyor. Bu anda bilgisayarımıza kalıcı bir Cookie dosyası bırakılmış 
+    oluyor. Siz daha sonra aynı siteye tekrardan bir ziyaret yaptığınız da HTTP Request ile bu veriler yeniden server'a yönlendirilir. Bu sayede tekrardan üye girişi yapmak 
+    yerine Cookie'ler sayesinde direk siteye giriş yapabilirsiniz.
+
+ 
+
+ 
+
+      Şimdi Gelelim Yanlış Bilinene: Session Cookie
+
+ 
+
+    Yukarıda tekrar bahsettiğim gibi bir çok kişi Session ile Cookie'nin ayrı şeyler olduğunu düşünüyor. Ancak bu yanlış bir
+    kanı. Session Cookie (geçici çerez), Persistent Cookie'lere nazaran tarayıcımızda kalıcı bir süre kalmaz. Biz sitede olduğumuz sürece 
+    Session Cookie de kalır. Ta ki tarayıcı kapatılana kadar. Peki Session Cookie nasıl çalışır?
+
+
+ 
+
+    Kullanıcı siteye girdiğinde server kullanıcıya bir "SESSİONID" tanımlar. Bu ID'ler server'da genellikle veritabanlarında kaydedilir.
+    Dediğimiz gibi Session Cookie'ler geçici çerezlerdir ve siz tarayıcıyı kapattığınız andan itibaren silinir. Bunun en güzel örneği 
+    yine e-ticaret siteleri. Siz bir ürünü sepetinize eklediğiniz zaman siteyi "kapatmadığınız" sürece ürününüz sepetinizde durur. Siz de 
+    sekmeler veya sayfalar arasında dolaşırsınız. Bunun sebebi server sizin için bir "SessionID" oluşturmuştur ve bunu "veri tabanına" kaydeder. Ta ki siz tarayıcıyı kapatana kadar. 
+
+ 
+
+ 
+
+    Bizler yine bir siteye ziyaret edeceğimiz zaman bir istek göndeririz. İstek ulaştıktan sonra server'ın veri tabanında bir "SessionID" 
+    tanımlanır. Bundan sonra siz siteyi ne zaman ziyaret edecek olursanız client-server iletişimi hep aynı ID ile gerçekleşir. Son olarak server
+    Cookie alanındaki verileri okuyor, session ID'yi kontrol edip buna göre verileri güncelliyor ve HTTP response mesajı ile siteyi bize getiriyor.
+    Eğer tarayıcı kapanmadıysa işlem böyle devam ediyor.
+
+
+      https://docs.microsoft.com/tr-tr/aspnet/core/fundamentals/app-state?view=aspnetcore-6.0
+   startup a ekledim   // buradaki core 5 için 
+
+
+
+ services.AddDistributedMemoryCache();//Session için
+            services.AddSession(options =>
+            {
+                options.Cookie.Name = ".AdventureWorks.Session";           //Session için 
+                options.IdleTimeout = TimeSpan.FromSeconds(10);
+                options.Cookie.IsEssential = true;
+            });
+----------------------------------------------------------------------------------------------------
+
+
+        public const string UserName = "UserName";  //Kullanmak istediğim session değişkenleri
+        public const string Role = "Role";          -> HomeController da yazıyorum
+
+
+
+
+           HttpContext.Session.SetString(UserName, ""); // Saklamak istediğim değer ilk etapta boş olacak çünkü login olmadı ilk etapta
+            HttpContext.Session.SetString(Role, "");
+           // HttpContext.Session.SetInt32(SessionKeyAge, 73); tipi int de olabilirdi 
+
+
+           ----------------------------------------------------------------------------------------------------------------
+           EXTENSIONS
+           Session da string ya da int saklanıyor
+
+
+           ama daha kompleks nesneler saklayabilriiz, örneğin Lis<Products>
+
+     *** nesneleri saklarken   string olarak saklıyoruz ()   {id=1," "," "," "}(Tahtada yazan  bu mu emin değilim?!?) //jSON Nesnesi id int ama string olarak saklanack
+
+     ***  okurken json nesnesine çeviriyoruz
+
+
+     https://docs.microsoft.com/en-us/aspnet/core/fundamentals/app-state?view=aspnetcore-6.0#session-state
+
+
+
+     https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-6.0&tabs=visual-studio  // VS 2022 Core 6 projesi  -> IdentityManagement      ındividual accounts seçtik 
+     Roller
+     ------
+     Admin   Diğer Controllerlar ı yöneten
+     User    Faturayı kesen
+     Enduser alışveriş yapan
+
+
+
+
+     [DatabaseGenerated(DatabaseGeneratedOption.None)]     ne işe yarar???????????????????
+
+     -----------------------------------------------------------------------------------------------------------  14 Mart 2022 Pazartesi(Tatil sonrası)
+
+     BasketController oluşturuldu
+     Basket .css
+     BasketModel.css
+     List.cshtml
+     StartUp
+     -----------
+     services.AddScoped<BasketModel>();                                   
+     services.AddScoped<List<Basket>>();
+     services.AddScoped<Basket>();
+
+     .Ürün eklediğim zaman login olmuyor kime ait olduğu belli değil, sadece seopte ekliyor bir daha bağlandığı zaman sepette duruyor. Sepete ekle dediğim zaamman session
+     atıcam tipi List <Basket> olucak onayla dediğim an  Sessionı  temizleyip veritabanına kaydolacak
+
+
+
+     __________________________________________________________________________________________________________________________
+     Addscoped vs Singleton
+
+
+
+     -------------------------------------------------------------------------------------------------
+     BasketControlle da ki işlemler genelde Home da olur, yani sepetteki ürün sayısının güncellenmesi Homeda olur , kendi controllerında olmasını istiyorsak React(JS ) kullanılması gerekir.
+
+
+     https://fontawesome.com/
+
+
+     Logout yapıldı -> session lar temizlendi 
