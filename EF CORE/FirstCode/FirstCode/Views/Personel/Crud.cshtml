@@ -1,0 +1,66 @@
+﻿@model FirstCode.Models.ViewModels.PersonelModel
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Create</h1>
+
+
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <h2>@Model.Header</h2>
+            <div class="form-group" hidden>
+                <input asp-for="Personel.PersonelId" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Personel.Name" class="control-label"></label>
+                <input asp-for="Personel.Name" class="form-control" />
+                <span asp-validation-for="Personel.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Personel.Surname" class="control-label"></label>
+                <input asp-for="Personel.Surname" class="form-control" />
+                <span asp-validation-for="Personel.Surname" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label name="Personel.CityId" class="control-label"></label>
+                <select name="Personel.CityId" class="form-control">
+
+                    @foreach (var item in Model.CityList)
+                    {
+                        @if (item.CityId == Model.Personel.CityId)
+                        {
+                            <option selected name="Personel.CityId" style="color:red" value="@item.CityId">
+                                @item.CityName
+                            </option>
+                        }
+
+                        else
+                        {
+                            <option name="Personel.CityId" value="@item.CityId">
+                                @item.CityName
+                            </option>
+                        }
+                    }
+
+                </select>
+
+            </div>
+            <div class="form-group">
+                <input type="submit" value="@Model.BtnVal" class="@Model.BtnClass" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="List">PersonelList</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

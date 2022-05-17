@@ -1,0 +1,66 @@
+﻿MVC Asp.Net Wep App Core (Empty değil)
+5.0.14 Nuggetdan indirdiklerimiz
+EntityFrameworkCoreSqlServer
+EntityFrameworkCoreSqlServer
+EntityFrameworkCoreDesign
+EntityFrameworkCoreSqlServer
+
+
+
+JSON Nedir?
+
+JSON'un açılımı Javascript Object Notation'dur. Yapısı XML'e benzer. Javascript'in alt kümesi olduğundan javascript işlemleride XML'e göre daha hızlıdır. XML'e göre daha az yer kaplar. Okunabilirliği XML'e göre daha kolaydır.
+
+JSON Yapısı
+
+JSON verileri anahtar (key) ve değer (value) çiftlerinden oluşur. Burada anahtar string yapısında olurken değerler string, value, numeric, ya da boolean gibi  herhangi bir veri tipinde olabilir.
+Veriler birbirlerine {}, küme işareti açma – kapama, ile bağlanır ve JSON Object (Nesnesi) olarak adlandırılır.
+
+Örnek JSON kodu
+
+{
+   "ad":"Erdem",
+   "soyad":"Aldıkaçtı"
+   "yas":25
+   "il":"İstanbul"
+    
+}
+
+https://docs.microsoft.com/tr-tr/ef/core/miscellaneous/connection-strings  --> Connection String için
+
+
+asp-area=""  ne?
+
+Razor nedir?
+
+
+Razor View Engine; View’lar da HTML, CSS, JavaScript ile beraber C#’ın da kullanılabilmesini sağlamaktadır. 
+View’lara yazılan HTML, CSS ve JavaScript kodları istemci tarafında çalışmaktadır. C# kodları ise sunucu tarafında çalışır ve sonuç istemciye gönderilir.
+
+------------------------------------------------------
+CityController da Create  için Razor View oluştururken  City i seç CityModeli değil! Create.cshtml içinde FirstCode.Models.ViewModels.CityModel olarak değiştir
+
+
+
+<input value="City.CityName" class="form-control" name="CityName" />
+
+  <input asp-for="City.CityName" class="form-control" /> ile  Otomatik olarak name ve value  City.CityName olur
+
+  -----------------------------------------------------------------------------------------------------------------
+  14 Şubat Pazartesi
+  Add-Migration
+  pictureEk
+  Update-Database
+
+  google istanbul cop image adress
+
+
+  sql-City- İstanbul un picture na yapıştır
+
+
+  City.cs e         public string Picture { get; set; } ekledik
+
+
+
+  CityId e göre Personels gelsin
+

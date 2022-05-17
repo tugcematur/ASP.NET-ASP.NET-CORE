@@ -1,0 +1,45 @@
+﻿@model BasicRepository.Models.ViewModel.CityModel
+@{
+    ViewData["Title"] = "Crud";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@*@model BasicRepository.Models.Classes.City eğer ayrı view lar oluştursaydık bunu değiştirmeyecektik*@
+<h1>Create</h1>
+
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <h4>@Model.Header</h4>
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group" hidden>
+                <input asp-for="City.CityId" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="City.CityName" class="control-label"></label>
+                <input asp-for="City.CityName" class="form-control" />
+                <span asp-validation-for="City.CityName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+
+                <input type="submit" value="@Model.BtnVal" class="@Model.BtnClass" />
+            </div>
+            <div class="form-group">
+                <a href="City/List" class="btn btn-danger">İptal</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
